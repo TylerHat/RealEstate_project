@@ -1,1 +1,1 @@
-# RealEstateProject
+# MiniProjects

@@ -1,6 +1,5 @@
 import requests
 
-
 url = "https://zillow56.p.rapidapi.com/property"
 
 querystring = {"zpid":"35413966"}
@@ -13,6 +12,7 @@ headers = {
 response = requests.request("GET", url, headers=headers, params=querystring)
 
 print(response.text)
+
 text_file = open("housedata.txt", "w")
 n = text_file.write(response.text)
 text_file.close()
@@ -34,4 +34,31 @@ It's important to note that this is just a rough estimate and does not take into
 financing costs, inflation, and market conditions, which can all impact the profitability of a real estate investment. 
 A more comprehensive analysis would require a detailed analysis of all the relevant financial and market data.
 
+"""
+
+
+"""
+import requests
+
+def get_zestimate(zpid):
+    API_KEY = "ccd2a329cdmsh48847502b1a3a8fp14a0f7jsn6db2e1605594"
+    endpoint = "http://www.zillow.com/webservice/GetZestimate.htm"
+    parameters = {
+        "zws-id": API_KEY,
+        "zpid": zpid
+    }
+    response = requests.get(endpoint, params=parameters)
+    if response.status_code == 200:
+        data = response.text
+        # Parse the response data to extract the Zestimate and Zestimate history
+        # ...
+        return data
+    else:
+        return None
+
+zestimate = get_zestimate(1234567890)
+if zestimate:
+    print(zestimate)
+else:
+    print("An error occurred.")
 """
