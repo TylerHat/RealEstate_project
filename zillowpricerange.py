@@ -36,8 +36,6 @@ def count_characters(file_path):
         return tax_records
 tax_numbers= count_characters(file_path)
 
-##pr(tax_numbers) 
-
 
 def tabulate_string(text):
     indent_level = 0
