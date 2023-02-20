@@ -1,21 +1,4 @@
-import matplotlib.pyplot as plt
 
-# Create your plots
-fig, axs = plt.subplots(2, 2)
-axs[0, 0].plot([1, 2, 3], [4, 5, 6])
-axs[0, 0].set_title('Plot 1')
-axs[0, 1].scatter([1, 2, 3], [4, 5, 6])
-axs[0, 1].set_title('Plot 2')
-axs[1, 0].bar([1, 2, 3], [4, 5, 6])
-axs[1, 0].set_title('Plot 3')
-axs[1, 1].plot([1, 2, 3], [4, 2, 5])
-axs[1, 1].set_title('Plot 4')
-
-# Save the figure as a file
-plt.savefig('my_plots.png')
-
-# Generate the HTML/CSS for the page
-html = '''
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,8 +32,3 @@ html = '''
   </div>
 </body>
 </html>
-'''
-
-# Save the HTML/CSS as a file
-with open('my_page.html', 'w') as f:
-    f.write(html)
