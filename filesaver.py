@@ -1,42 +1,23 @@
-m = 3
-n = 2
-p = m ** n
-print ("On solving the exponent, we get ", p)
+import numpy as np
+from sklearn.linear_model import LinearRegression
 
+# Example input data
+data = np.array([1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0])
 
-######## Section for Analytics ############
+# Reshape the data into a 2D array with one column
+X = data.reshape(-1, 1)
 
-""" Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
-where:
+# Use the first 5 values as training data
+X_train = X[:5]
+y_train = data[:5]
 
-P is the principal (the amount of the loan)
-r is the monthly interest rate (annual interest rate divided by 12)
-n is the total number of payments (the number of years of the loan multiplied by 12)
-Note that this equation assumes a fixed-rate mortgage. If you have an adjustable-rate mortgage, the mortgage payment may change over time."""
+# Fit a linear regression model to the training data
+model = LinearRegression()
+model.fit(X_train, y_train)
 
+# Predict the next 5 values
+X_test = X[5:]
+y_pred = model.predict(X_test)
 
-princible_rate = .03
-
-zestimateHouse = 190000
-
-initialpayment_Percent = .2
-##princible_loan_zest = 152000
-numOfPayments = 360
-
-princible_loan_zest = float(zestimateHouse * (1-initialpayment_Percent))
-
-print(princible_loan_zest)
-print(princible_rate)
-print(initialpayment_Percent)
-print(princible_loan_zest)
-print(numOfPayments)
-
-
-
-mortgage_payment_zest_up = (princible_loan_zest * initialpayment_Percent * princible_rate * (1 + princible_rate) ** numOfPayments)
-mortgage_payment_zest_down = ((1 + princible_rate) ** (360-1))
-
-print("mortgage_payment_zest_up" + str(mortgage_payment_zest_up))
-print("mortgage_payment_zest_down" + str(mortgage_payment_zest_down))
-
-print(mortgage_payment_zest_up/mortgage_payment_zest_down)
+# Print the predicted values
+print("Predicted values:", y_pred)
