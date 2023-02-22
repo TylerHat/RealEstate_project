@@ -136,15 +136,20 @@ valuIncreaseRates = []
 taxpaid = []
 taxIncrease = []
 comparable_years= []
-
+comparable_years2 = []
 year_start_tax = float(find_value_after_word("taxAssessedYear",","))
 i1 =0
 while i1 <=21:
-    comparable_years.append(year_start_tax - i1)
+    comparable_years.append(year_start_tax+5 - i1)
     i1+=1
 else:
     print("")
-
+i3=0
+while i3<=4:
+    comparable_years2.append(year_start_tax + i3)
+    i3+=1
+else:
+    print(comparable_years2)
 i2=0
 while i2<=21:
     tax_values.append(float(find_value_after_word("value_"+str(i2+1),",")))
@@ -170,15 +175,16 @@ def predic_value(past_array, amount_to_predict):
     model = LinearRegression()
     model.fit(X_train, y_train)
 
-    # Predict the next 5 values
-    X_test = X[amount_to_predict:]
+    # Predict the next x values
+    X_test = X[:5]
     y_pred = model.predict(X_test)
 
     # Print the predicted values
-    print("Predicted values:", y_pred)
+    ##print("Predicted values:", y_pred)
     return y_pred
 
-    
+future_tax_values = predic_value(tax_values, 5)
+future_valuIncreaseRates = predic_value(valuIncreaseRates, 5)
 
 
 plt.rcParams["figure.figsize"] = [15.50, 9.50]
@@ -186,18 +192,41 @@ plt.rcParams["figure.autolayout"] = True
 
 ##Subplots for Tax Graphs
 
-fig, axs = plt.subplots(2, 2)
+
+"""
+fig, axs = plt.subplots(1, 1)
 axs[0, 0].plot(comparable_years, tax_values, '*-', color='red', markersize=5)
 axs[0, 0].set_title('Tax Values by Year')
+ax2 = axs.twinx()
+ax2.plot(comparable_years, future_tax_values, 'r^-', label='Predicted Tax Values')
 axs[0, 1].plot(comparable_years, valuIncreaseRates, '*-', color='green', markersize=5)
 axs[0, 1].set_title('Tax Value Increase Rate by Year')
+ax3 = axs.twinx()
+ax3.plot(comparable_years, future_valuIncreaseRates, 'r^-', label='Predicted Values')
 axs[1, 0].plot(comparable_years, taxpaid, '*-', color='blue', markersize=5)
 axs[1, 0].set_title('Tax Paid by Year')
 axs[1, 1].plot(comparable_years, taxIncrease, '*-', color='orange', markersize=5)
 axs[1, 1].set_title('Tax Increase by Year')
-plt.savefig('my_plots.png')
 
-##plt.show()
+"""
+print("this is future values: " +str(future_tax_values))
+pr(str(comparable_years))
+pr(str(comparable_years2))
+pr(str(tax_values))
+fig, ax = plt.subplots()
+ax.plot(comparable_years, tax_values, 'bo-', label='y1')
+ax.plot(comparable_years2, future_tax_values, 'r^-', label='y2')
+
+# set the axis labels and title
+ax.set_xlabel('X axis label')
+ax.set_ylabel('Y axis label')
+ax.set_title('Title of the plot')
+
+# add legend to the plot
+ax.legend(loc='best')
+
+# display the plot
+plt.show()
 
 ######## Section for Analytics ############
 
