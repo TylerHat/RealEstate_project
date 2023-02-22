@@ -8,7 +8,7 @@ api_file_path =open(r"C:/Users/Tyler/Desktop/ZillowAPIKey.txt").read()
 
 url = "https://zillow56.p.rapidapi.com/property"
 
-querystring = {"zpid":"57283238"}
+querystring = {"zpid":"35413966"}
 
 headers = {
 	"X-RapidAPI-Key": api_file_path,

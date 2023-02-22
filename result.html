@@ -1,8 +1,124 @@
-This report was run for: 6 Nutmeg Ln, Darien, Fairfield County 06820"
-	 USA<br>This 5803 square foot single family home has 6 bedrooms and 5.5 bathrooms. This home is located at 6 Nutmeg Ln, Darien, CT 06820.<br> Additional calculations:
- Princible Interest Rate: 0.06 Initial Loan Payment: 0.2 Princible Loan Amount for Zestimate: 2242800.0 # of payments: 360<br> Breakeven Point: 185.1 Morgage Payment bases on Zesimate: 28528.415999999997<br><img src="my_plots.png" alt="image" width="1200"><br><table border="1" class="dataframe">
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Report</title>
+    <style>
+		.img-container {
+			display: flex;
+			flex-direction: row;
+            align-items: center;
+			justify-content: center;
+		}
+		.img-container img {
+			margin-right: 10px;
+		}
+        .label {
+			text-align: Center;
+			font-size: 16px;
+			font-weight: bold;
+		}
+	</style>
+    <style>
+		.highlight {
+			background-color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1></h1>
+	<h1>This report was run for the Address: 2592 Burridge Cir, Twinsburg OH</h1>
+	<p>Description: 2592 Burridge Cir, Twinsburg, OH 44087 is a condo home that contains 1,596 sq ft and was built in 1994. It contains 3 bedrooms and 2 bathrooms. This home last sold for $190,000 in April 2021. \n \nThe Zestimate for this house is $216,600. The Rent Zestimate for this home is $2,129/mo..<br><br>
+    Monthly Rent Estimate: <span class="highlight">2129.0</span>.<br><br>
+    Princible Loan from Zestimate: <span class="highlight">173280.0</span>&emsp;Last Sold Price: <span class="highlight">190000.0</span>&emsp;<br>Zillow's Estimate on House Cost: <span style="color: blue;">216600.0</span><br>House Sqft: <span style="color: blue;">1596.0</span><br>Zestimate Price/Sqft: <span class="highlight">135.71 sqft</span>
+    <br><br>
+    Monthyl HOA Fee: <span class="highlight">251.0</span>
+    <br><br>
+    Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
+    &emsp;P is the principal (the amount of the loan)
+    &emsp;r is the monthly interest rate (annual interest rate divided by 12)
+    &emsp;n is the total number of payments (the number of years of the loan multiplied by 12)
+    <br>Morgage Payment Estimate: <span style="color: blue;">2204.1216</span>
+    <br><br>Break-even point = Total cost of owning the property / Rental income per year
+    <br>BreakEven Point: <span style="color: blue;">101.74</span>
+    </p>
+   
+    <div class="img-container">
+		<div>
+			<img src="my_plots_taxRates.png" alt="Image 1">
+			<p class="label">Esimated Future Tax Rate Changes:<table border="1" class="dataframe table table-stripped">
   <thead>
     <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Tax Rage Change Prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2025</td>
+      <td>0.174</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2026</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2027</td>
+      <td>0.000</td>
+    </tr>
+  </tbody>
+</table></p>
+		</div>
+		<div>
+			<img src="my_plots_Tax_Values.png" alt="Image 2">
+			<p class="label">Esimated Future Tax Values: <table border="1" class="dataframe table table-stripped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Tax Rage Change Prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2024</td>
+      <td>53697.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2025</td>
+      <td>53697.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>2026</td>
+      <td>45731.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2027</td>
+      <td>45730.0</td>
+    </tr>
+  </tbody>
+</table>:</p>
+		</div>
+	</div>
+    <div>
+    <p class="label"><table border="1" class="dataframe table table-stripped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
       <th>Year</th>
       <th>Total Income</th>
       <th>Total Expenses</th>
@@ -15,204 +131,238 @@ This report was run for: 6 Nutmeg Ln, Darien, Fairfield County 06820"
   </thead>
   <tbody>
     <tr>
-      <td>2021</td>
-      <td>181752.000</td>
-      <td>2400.000</td>
-      <td>179352.000</td>
-      <td>1.036</td>
-      <td>181752.000</td>
-      <td>2400.000</td>
-      <td>179352.000</td>
-    </tr>
-    <tr>
-      <td>2022</td>
-      <td>187204.560</td>
-      <td>2472.000</td>
-      <td>184732.560</td>
-      <td>1.037</td>
-      <td>368956.560</td>
-      <td>4872.000</td>
-      <td>364084.560</td>
-    </tr>
-    <tr>
+      <th>0</th>
       <td>2023</td>
-      <td>192820.697</td>
-      <td>2546.160</td>
-      <td>190274.537</td>
-      <td>1.038</td>
-      <td>561777.257</td>
-      <td>7418.160</td>
-      <td>554359.097</td>
-    </tr>
-    <tr>
-      <td>2024</td>
-      <td>198605.318</td>
-      <td>2622.545</td>
-      <td>195982.773</td>
-      <td>1.039</td>
-      <td>760382.575</td>
-      <td>10040.705</td>
-      <td>750341.870</td>
-    </tr>
-    <tr>
-      <td>2025</td>
-      <td>204563.477</td>
-      <td>2701.221</td>
-      <td>201862.256</td>
-      <td>1.040</td>
-      <td>964946.052</td>
-      <td>12741.926</td>
-      <td>952204.126</td>
-    </tr>
-    <tr>
-      <td>2026</td>
-      <td>210700.382</td>
-      <td>2782.258</td>
-      <td>207918.124</td>
-      <td>1.041</td>
-      <td>1175646.433</td>
-      <td>15524.184</td>
-      <td>1160122.250</td>
-    </tr>
-    <tr>
-      <td>2027</td>
-      <td>217021.393</td>
-      <td>2865.726</td>
-      <td>214155.667</td>
-      <td>1.042</td>
-      <td>1392667.826</td>
-      <td>18389.909</td>
-      <td>1374277.917</td>
-    </tr>
-    <tr>
-      <td>2028</td>
-      <td>223532.035</td>
-      <td>2951.697</td>
-      <td>220580.338</td>
-      <td>1.044</td>
-      <td>1616199.861</td>
-      <td>21341.607</td>
-      <td>1594858.255</td>
-    </tr>
-    <tr>
-      <td>2029</td>
-      <td>230237.996</td>
-      <td>3040.248</td>
-      <td>227197.748</td>
-      <td>1.045</td>
-      <td>1846437.857</td>
-      <td>24381.855</td>
-      <td>1822056.002</td>
-    </tr>
-    <tr>
-      <td>2030</td>
-      <td>237145.136</td>
-      <td>3131.456</td>
-      <td>234013.680</td>
-      <td>1.046</td>
-      <td>2083582.993</td>
-      <td>27513.310</td>
-      <td>2056069.682</td>
-    </tr>
-    <tr>
-      <td>2031</td>
-      <td>244259.490</td>
-      <td>3225.399</td>
-      <td>241034.090</td>
-      <td>1.048</td>
-      <td>2327842.482</td>
-      <td>30738.710</td>
-      <td>2297103.773</td>
-    </tr>
-    <tr>
-      <td>2032</td>
-      <td>251587.274</td>
-      <td>3322.161</td>
-      <td>248265.113</td>
-      <td>1.049</td>
-      <td>2579429.757</td>
-      <td>34060.871</td>
-      <td>2545368.886</td>
-    </tr>
-    <tr>
-      <td>2033</td>
-      <td>259134.893</td>
-      <td>3421.826</td>
-      <td>255713.067</td>
-      <td>1.051</td>
-      <td>2838564.650</td>
-      <td>37482.697</td>
-      <td>2801081.952</td>
-    </tr>
-    <tr>
-      <td>2034</td>
-      <td>266908.939</td>
-      <td>3524.481</td>
-      <td>263384.459</td>
-      <td>1.052</td>
-      <td>3105473.589</td>
-      <td>41007.178</td>
-      <td>3064466.411</td>
-    </tr>
-    <tr>
-      <td>2035</td>
-      <td>274916.208</td>
-      <td>3630.215</td>
-      <td>271285.992</td>
-      <td>1.054</td>
-      <td>3380389.797</td>
-      <td>44637.393</td>
-      <td>3335752.403</td>
-    </tr>
-    <tr>
-      <td>2036</td>
-      <td>283163.694</td>
-      <td>3739.122</td>
-      <td>279424.572</td>
-      <td>1.055</td>
-      <td>3663553.491</td>
-      <td>48376.515</td>
-      <td>3615176.976</td>
-    </tr>
-    <tr>
-      <td>2037</td>
-      <td>291658.605</td>
-      <td>3851.295</td>
-      <td>287807.309</td>
-      <td>1.057</td>
-      <td>3955212.095</td>
-      <td>52227.811</td>
-      <td>3902984.285</td>
-    </tr>
-    <tr>
-      <td>2038</td>
-      <td>300408.363</td>
-      <td>3966.834</td>
-      <td>296441.529</td>
+      <td>25548.000</td>
+      <td>2400.000</td>
+      <td>23148.000</td>
       <td>1.059</td>
-      <td>4255620.458</td>
-      <td>56194.645</td>
-      <td>4199425.813</td>
+      <td>25548.000</td>
+      <td>2400.000</td>
+      <td>23148.000</td>
     </tr>
     <tr>
-      <td>2039</td>
-      <td>309420.614</td>
-      <td>4085.839</td>
-      <td>305334.774</td>
+      <th>1</th>
+      <td>2027</td>
+      <td>26314.440</td>
+      <td>2472.000</td>
+      <td>23842.440</td>
       <td>1.061</td>
-      <td>4565041.072</td>
-      <td>60280.484</td>
-      <td>4504760.588</td>
+      <td>51862.440</td>
+      <td>4872.000</td>
+      <td>46990.440</td>
     </tr>
     <tr>
+      <th>2</th>
+      <td>2028</td>
+      <td>27103.873</td>
+      <td>2546.160</td>
+      <td>24557.713</td>
+      <td>1.063</td>
+      <td>78966.313</td>
+      <td>7418.160</td>
+      <td>71548.153</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>2029</td>
+      <td>27916.989</td>
+      <td>2622.545</td>
+      <td>25294.445</td>
+      <td>1.065</td>
+      <td>106883.303</td>
+      <td>10040.705</td>
+      <td>96842.598</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>2030</td>
+      <td>28754.499</td>
+      <td>2701.221</td>
+      <td>26053.278</td>
+      <td>1.067</td>
+      <td>135637.802</td>
+      <td>12741.926</td>
+      <td>122895.876</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>2031</td>
+      <td>29617.134</td>
+      <td>2782.258</td>
+      <td>26834.876</td>
+      <td>1.069</td>
+      <td>165254.936</td>
+      <td>15524.184</td>
+      <td>149730.752</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>2032</td>
+      <td>30505.648</td>
+      <td>2865.726</td>
+      <td>27639.923</td>
+      <td>1.071</td>
+      <td>195760.584</td>
+      <td>18389.909</td>
+      <td>177370.675</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>2033</td>
+      <td>31420.818</td>
+      <td>2951.697</td>
+      <td>28469.120</td>
+      <td>1.073</td>
+      <td>227181.401</td>
+      <td>21341.607</td>
+      <td>205839.795</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>2034</td>
+      <td>32363.442</td>
+      <td>3040.248</td>
+      <td>29323.194</td>
+      <td>1.075</td>
+      <td>259544.843</td>
+      <td>24381.855</td>
+      <td>235162.989</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>2035</td>
+      <td>33334.345</td>
+      <td>3131.456</td>
+      <td>30202.890</td>
+      <td>1.077</td>
+      <td>292879.189</td>
+      <td>27513.310</td>
+      <td>265365.878</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>2036</td>
+      <td>34334.376</td>
+      <td>3225.399</td>
+      <td>31108.976</td>
+      <td>1.080</td>
+      <td>327213.564</td>
+      <td>30738.710</td>
+      <td>296474.855</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>2037</td>
+      <td>35364.407</td>
+      <td>3322.161</td>
+      <td>32042.246</td>
+      <td>1.082</td>
+      <td>362577.971</td>
+      <td>34060.871</td>
+      <td>328517.100</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>2038</td>
+      <td>36425.339</td>
+      <td>3421.826</td>
+      <td>33003.513</td>
+      <td>1.085</td>
+      <td>399003.310</td>
+      <td>37482.697</td>
+      <td>361520.613</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>2039</td>
+      <td>37518.099</td>
+      <td>3524.481</td>
+      <td>33993.618</td>
+      <td>1.087</td>
+      <td>436521.410</td>
+      <td>41007.178</td>
+      <td>395514.232</td>
+    </tr>
+    <tr>
+      <th>14</th>
       <td>2040</td>
-      <td>318703.232</td>
+      <td>38643.642</td>
+      <td>3630.215</td>
+      <td>35013.427</td>
+      <td>1.090</td>
+      <td>475165.052</td>
+      <td>44637.393</td>
+      <td>430527.659</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>2041</td>
+      <td>39802.952</td>
+      <td>3739.122</td>
+      <td>36063.830</td>
+      <td>1.092</td>
+      <td>514968.004</td>
+      <td>48376.515</td>
+      <td>466591.488</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2042</td>
+      <td>40997.040</td>
+      <td>3851.295</td>
+      <td>37145.745</td>
+      <td>1.095</td>
+      <td>555965.044</td>
+      <td>52227.811</td>
+      <td>503737.233</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>2043</td>
+      <td>42226.951</td>
+      <td>3966.834</td>
+      <td>38260.117</td>
+      <td>1.098</td>
+      <td>598191.995</td>
+      <td>56194.645</td>
+      <td>541997.350</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>2044</td>
+      <td>43493.760</td>
+      <td>4085.839</td>
+      <td>39407.921</td>
+      <td>1.101</td>
+      <td>641685.755</td>
+      <td>60280.484</td>
+      <td>581405.271</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>2045</td>
+      <td>44798.573</td>
       <td>4208.415</td>
-      <td>314494.818</td>
-      <td>1.062</td>
-      <td>4883744.304</td>
+      <td>40590.158</td>
+      <td>1.104</td>
+      <td>686484.327</td>
       <td>64488.899</td>
-      <td>4819255.405</td>
+      <td>621995.429</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>2046</td>
+      <td>46142.530</td>
+      <td>4334.667</td>
+      <td>41807.863</td>
+      <td>1.107</td>
+      <td>732626.857</td>
+      <td>68823.566</td>
+      <td>663803.292</td>
     </tr>
   </tbody>
-</table>
+</table></p>
+    </div>
+</body>
+</html>

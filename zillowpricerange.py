@@ -4,10 +4,8 @@ import webbrowser
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-
 file = open('housedata.txt', 'r')
 read = file.readlines()
-
 
 file_path = "housedata.txt"
 
@@ -113,8 +111,6 @@ description_full = ' '.join(description_full).replace('\t', '').replace(", ",","
 
 full_address = streetAddress + ", " + city_address + ", " + county +" "+ zipCode +" " + country
 
-
-
 ##use this for $/sqft 
 house_sqft = float(find_value_after_word("livingArea",',').strip().strip("\""))
 lotSize_sqft = float(find_value_after_word("lotSize",',').strip().strip("\""))
@@ -126,9 +122,7 @@ lastSoldPrice = float(find_value_after_word("lastSoldPrice",',').strip().strip("
 monthly_rentZestimate = float(find_value_after_word("rentZestimate",',').strip().strip("\""))
 zestimateHouse = float(find_value_after_word("HouseZestimate",','))
 
-print(zestimateHouse)
-
-
+##print(zestimateHouse)
 
 ######## Section for Taxes ############
 tax_values= []
@@ -140,16 +134,16 @@ comparable_years2 = []
 year_start_tax = float(find_value_after_word("taxAssessedYear",","))
 i1 =0
 while i1 <=21:
-    comparable_years.append(year_start_tax+5 - i1)
+    comparable_years.append(year_start_tax - i1)
     i1+=1
 else:
-    print("")
+    debug=3
 i3=0
 while i3<=4:
     comparable_years2.append(year_start_tax + i3)
     i3+=1
 else:
-    print(comparable_years2)
+    debug =1
 i2=0
 while i2<=21:
     tax_values.append(float(find_value_after_word("value_"+str(i2+1),",")))
@@ -158,75 +152,82 @@ while i2<=21:
     taxIncrease.append(float(find_value_after_word("taxIncreaseRate_"+str(i2+1),",")))
     i2+=1
 else:
-    print('')
+    debug=4
 
 def predic_value(past_array, amount_to_predict):
     # Example input data
     data = np.array(past_array)
-
+    leng =len(past_array)-4
+    
     # Reshape the data into a 2D array with one column
     X = data.reshape(-1, 1)
 
     # Use the first 5 values as training data
-    X_train = X[:5]
-    y_train = data[:5]
+    X_train = X[:leng]
+    y_train = data[:leng]
 
-    # Fit a linear regression model to the training data
     model = LinearRegression()
     model.fit(X_train, y_train)
 
-    # Predict the next x values
-    X_test = X[:5]
+    X_test = X[:amount_to_predict]
     y_pred = model.predict(X_test)
 
-    # Print the predicted values
-    ##print("Predicted values:", y_pred)
     return y_pred
 
 future_tax_values = predic_value(tax_values, 5)
 future_valuIncreaseRates = predic_value(valuIncreaseRates, 5)
 
-
-plt.rcParams["figure.figsize"] = [15.50, 9.50]
-plt.rcParams["figure.autolayout"] = True
+plt.rcParams["figure.figsize"] = [7, 4.50]
+plt.rcParams["figure.autolayout"] = False
 
 ##Subplots for Tax Graphs
 
-
-"""
-fig, axs = plt.subplots(1, 1)
-axs[0, 0].plot(comparable_years, tax_values, '*-', color='red', markersize=5)
-axs[0, 0].set_title('Tax Values by Year')
-ax2 = axs.twinx()
-ax2.plot(comparable_years, future_tax_values, 'r^-', label='Predicted Tax Values')
-axs[0, 1].plot(comparable_years, valuIncreaseRates, '*-', color='green', markersize=5)
-axs[0, 1].set_title('Tax Value Increase Rate by Year')
-ax3 = axs.twinx()
-ax3.plot(comparable_years, future_valuIncreaseRates, 'r^-', label='Predicted Values')
-axs[1, 0].plot(comparable_years, taxpaid, '*-', color='blue', markersize=5)
-axs[1, 0].set_title('Tax Paid by Year')
-axs[1, 1].plot(comparable_years, taxIncrease, '*-', color='orange', markersize=5)
-axs[1, 1].set_title('Tax Increase by Year')
-
-"""
-print("this is future values: " +str(future_tax_values))
-pr(str(comparable_years))
-pr(str(comparable_years2))
-pr(str(tax_values))
 fig, ax = plt.subplots()
-ax.plot(comparable_years, tax_values, 'bo-', label='y1')
-ax.plot(comparable_years2, future_tax_values, 'r^-', label='y2')
-
+##ax.plot(comparable_years3, greymatter, '*-', color='blue', label='y3')
+ax.plot(comparable_years2, future_tax_values, 'b*-', label='linear regression estimate')
+ax.plot(comparable_years, tax_values, 'r^-', label='Previous Tax Values')
 # set the axis labels and title
-ax.set_xlabel('X axis label')
-ax.set_ylabel('Y axis label')
-ax.set_title('Title of the plot')
+ax.set_xlabel('Years')
+ax.set_ylabel('Tax Values')
+ax.set_title('Predition of Tax Values in next 5 Years')
 
-# add legend to the plot
 ax.legend(loc='best')
 
-# display the plot
-plt.show()
+fig.savefig("my_plots_Tax_Values.png")
+
+fig, ax2 = plt.subplots()
+ax2.plot(comparable_years2, future_valuIncreaseRates, 'b*-', label='linear regression estimate')
+ax2.plot(comparable_years, valuIncreaseRates, 'r^-', label='Previous Tax Increase Rates')
+ax2.set_xlabel('Years')
+ax2.set_ylabel('Tax Increase Rates')
+ax2.set_title('Predition of Tax Change Rates in next 5 Years')
+
+# add legend to the plot
+ax2.legend(loc='best')
+
+fig.savefig("my_plots_taxRates.png")
+
+html_tab_TaxRate = []
+html_tab_TaxValue = []
+i=0
+for year in range(int(year_start_tax+1),(int(year_start_tax)+5)):
+    
+    html_tab_TaxValue.append({
+            "Year": int(year_start_tax+3)+i,
+            "Tax Rage Change Prediction": round(future_tax_values[i], 3),
+        })
+    html_tab_TaxRate.append({
+            "Year": int(year_start_tax+3)+i,
+            "Tax Rage Change Prediction": round(future_valuIncreaseRates[i], 3),
+        })
+    i+=1
+df_html_table_TaxRate = pd.DataFrame(html_tab_TaxRate)
+table_TaxRate_html = df_html_table_TaxRate.to_html(classes='table table-stripped')
+df_html_table_TaxValue = pd.DataFrame(html_tab_TaxValue)
+table_TaxValue_html = df_html_table_TaxValue.to_html(classes='table table-stripped')
+
+
+html_TaxRate_tb = df_html_table_TaxRate.to_html(classes='table table-stripped')
 
 ######## Section for Analytics ############
 
@@ -249,7 +250,6 @@ else:
     print("that is not a correct option")
 
 
-
 initialpayment_Percent = int(input("How much (%) of the total value do you plan on puting down?") or 20)/100 
 princible_loan_zest = float(zestimateHouse) * (1-initialpayment_Percent) 
 numOfPayments = int(input("What is total amount of payments?") or 360) 
@@ -262,20 +262,11 @@ mortgage_payment_zest = (princible_loan_zest * initialpayment_Percent * princibl
 pr(mortgage_payment_zest)
 
 
-##html_house_details=f"<h1>My value is {my_value}</h1>"
-
 """
 Break-even point = Total cost of owning the property / Rental income per year
-
-
 """
-
 breakEvenPoint = round(zestimateHouse/monthly_rentZestimate, 2)
 print("zestimateHouse: "+ str(zestimateHouse)+ "\tmonthly_rentZestimate: "+ str(monthly_rentZestimate)+ "\nBreak Even Point: "+ str(breakEvenPoint))
-
-
-
-
 
 """
 The cap rate is found by dividing the property's net operating expenses by its purchase price. You can find the cap rate by doing the following: 
@@ -287,9 +278,6 @@ Then, subtract your monthly operating expenses ( utilities, taxes, maintenance) 
 Divide your net income by the purchase price to find your cap rate.
 
 Multiply the cap rate by 100 to find the percentage of your potential returns on the property.
-
-
-
 
 
 """
@@ -321,7 +309,7 @@ accumulated_net_income = net_income
 total_roi = ((zestimateHouse+ princible_loan_zest) +net_income)/(zestimateHouse+ princible_loan_zest)
 
 house_prop_data.append({
-        "Year": int(year_start_tax),
+        "Year": int(year_start_tax)+2,
         "Total Income": round(total_rent_income, 3),
         "Total Expenses": round(total_expenses, 3),
         "Net Income": round(net_income, 3),
@@ -332,7 +320,7 @@ house_prop_data.append({
     })
 
 
-for year in range(int(year_start_tax+1),(int(year_start_tax)+20)):
+for year in range(int(year_start_tax+3),(int(year_start_tax)+23)):
 
     total_rent_income *= 1.03
     total_expenses *= 1.03
@@ -345,7 +333,7 @@ for year in range(int(year_start_tax+1),(int(year_start_tax)+20)):
     accumulated_net_income += net_income
 
     house_prop_data.append({
-            "Year": int(year),
+            "Year": int(year+3),
             "Total Income": round(total_rent_income, 3),
             "Total Expenses": round(total_expenses, 3),
             "Net Income": round(net_income, 3),
@@ -361,21 +349,78 @@ html_yr_calc_tb = df.to_html(classes='table table-stripped')
 df.to_csv('house30yrinvestment.csv')
 
 
-# Load the PNG image file
 img_path = 'my_plots.png'
 image_tag = f'<img src="{img_path}" alt="image" width="1200">'
 
-# Convert the Pandas DataFrame to an HTML table
-table_html = df.to_html(index=False)
+table_html = df.to_html(classes='table table-stripped')
 
-# Concatenate the image and table HTML tags
-full_html = f'{html_header_info_1}<br>{html_header_info_2}<br>{html_header_info_3}<br>{html_header_info_4}<br>{image_tag}<br>{table_html}'
+
+full_html = """
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real Estate Report</title>
+    <style>
+		.img-container {
+			display: flex;
+			flex-direction: row;
+            align-items: center;
+			justify-content: center;
+		}
+		.img-container img {
+			margin-right: 10px;
+		}
+        .label {
+			text-align: Center;
+			font-size: 16px;
+			font-weight: bold;
+		}
+	</style>
+    <style>
+		.highlight {
+			background-color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>"""  +f"""</h1>
+	<h1>This report was run for the Address: {streetAddress}, {city_address} {state_address}</h1>
+	<p>Description: {description_full}.<br><br>
+    Monthly Rent Estimate: <span class="highlight">{monthly_rentZestimate}</span>.<br><br>
+    Princible Loan from Zestimate: <span class="highlight">{princible_loan_zest}</span>&emsp;Last Sold Price: <span class="highlight">{lastSoldPrice}</span>&emsp;<br>Zillow's Estimate on House Cost: <span style="color: blue;">{zestimateHouse}</span><br>House Sqft: <span style="color: blue;">{house_sqft}</span><br>Zestimate Price/Sqft: <span class="highlight">{round(zestimateHouse/house_sqft,2)} sqft</span>
+    <br><br>
+    Monthyl HOA Fee: <span class="highlight">{monthly_HoaFee}</span>
+    <br><br>
+    Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
+    &emsp;P is the principal (the amount of the loan)
+    &emsp;r is the monthly interest rate (annual interest rate divided by 12)
+    &emsp;n is the total number of payments (the number of years of the loan multiplied by 12)
+    <br>Morgage Payment Estimate: <span style="color: blue;">{mortgage_payment_zest}</span>
+    <br><br>Break-even point = Total cost of owning the property / Rental income per year
+    <br>BreakEven Point: <span style="color: blue;">{breakEvenPoint}</span>
+    </p>
+   
+    <div class="img-container">
+		<div>
+			<img src="my_plots_taxRates.png" alt="Image 1">
+			<p class="label">Esimated Future Tax Rate Changes:"""+table_TaxRate_html +"""</p>
+		</div>
+		<div>
+			<img src="my_plots_Tax_Values.png" alt="Image 2">
+			<p class="label">Esimated Future Tax Values: """+ table_TaxValue_html+""":</p>
+		</div>
+	</div>
+    <div>
+    <p class="label">"""+ table_html +"""</p>
+    </div>
+</body>
+</html>
+"""
 
 # Save the HTML code to a file
 with open('result.html', 'w') as f:
     f.write(full_html)
-
-
 
 # open the HTML page in a new tab in the default web browser
 webbrowser.open_new_tab("result.html")

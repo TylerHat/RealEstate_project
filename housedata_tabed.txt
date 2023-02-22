@@ -1,16 +1,16 @@
 {
-	"abbreviatedAddress":"6 Nutmeg Ln",
+	"abbreviatedAddress":"2592 Burridge Cir",
 	"address":{
-		"city":"Darien",
+		"city":"Twinsburg",
 		"community":null,
 		"neighborhood":null,
-		"state":"CT",
-		"streetAddress":"6 Nutmeg Ln",
+		"state":"OH",
+		"streetAddress":"2592 Burridge Cir",
 		"subdivision":null,
-		"zipcode":"06820"
+		"zipcode":"44087"
 	},
 	"apartmentsForRentInZipcodeSearchUrl":{
-		"path":"/darien-ct-06820/apartments/"
+		"path":"/twinsburg-oh-44087/apartments/"
 	},
 	"attributionInfo":{
 		"agentEmail":null,
@@ -72,13 +72,13 @@
 		"providerLogo":null,
 		"trueStatus":null
 	},
-	"bathrooms":5.5,
-	"bedrooms":6,
+	"bathrooms":2,
+	"bedrooms":3,
 	"big":[
 		{
 			"subjectType":null,
-			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=550x413&zoom=17&center=41.08419418334961,
-			-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPtZYsH4OvEsmoQ8jxZmGn34rEA=",
+			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=550x413&zoom=17&center=41.31391143798828,
+			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Fe7zduEkeWS5yBuEBzTyNKgtumw=",
 			"width":550
 		}
 	],
@@ -89,11 +89,11 @@
 	"brokerageName":null,
 	"building":null,
 	"buildingId":null,
-	"city":"Darien",
-	"cityId":11043,
+	"city":"Twinsburg",
+	"cityId":7510,
 	"citySearchUrl":{
-		"path":"/darien-ct/",
-		"text":"Homes in Darien"
+		"path":"/twinsburg-oh/",
+		"text":"Homes in Twinsburg"
 	},
 	"comingSoonOnMarketDate":null,
 	"communityUrl":null,
@@ -102,21 +102,28 @@
 	],
 	"contingentListingType":null,
 	"country":"USA",
-	"county":"Fairfield County",
-	"countyFIPS":"09001",
-	"countyId":2694,
+	"county":"Summit County",
+	"countyFIPS":"39153",
+	"countyId":1404,
 	"currency":"USD",
 	"datePostedString":"",
 	"datePriceChanged":null,
-	"dateSold":998006400000,
-	"dateSoldString":"2001-08-17",
-	"daysOnZillow":7858,
-	"description":"This 5803 square foot single family home has 6 bedrooms and 5.5 bathrooms. This home is located at 6 Nutmeg Ln,
-	 Darien,
-	 CT 06820.",
-	"desktopWebHdpImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=550x413&zoom=17&center=41.08419418334961,
-	-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPtZYsH4OvEsmoQ8jxZmGn34rEA=",
-	"downPaymentAssistance":null,
+	"dateSold":1619740800000,
+	"dateSoldString":"2021-04-30",
+	"daysOnZillow":663,
+	"description":"2592 Burridge Cir,
+	 Twinsburg,
+	 OH 44087 is a condo home that contains 1,
+	596 sq ft and was built in 1994. It contains 3 bedrooms and 2 bathrooms. This home last sold for $190,
+	000 in April 2021. \n \nThe Zestimate for this house is $216,
+	600. The Rent Zestimate for this home is $2,
+	129/mo. ",
+	"desktopWebHdpImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=550x413&zoom=17&center=41.31391143798828,
+	-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Fe7zduEkeWS5yBuEBzTyNKgtumw=",
+	"downPaymentAssistance":{
+		"maxAssistance":9500,
+		"resultCount":19
+	},
 	"editPropertyHistorylink":null,
 	"enhancedBrokerImageUrl":null,
 	"favoriteCount":0,
@@ -156,11 +163,11 @@
 	"formattedChip":{
 		"location":[
 			{
-				"fullValue":"6 Nutmeg Ln"
+				"fullValue":"2592 Burridge Cir"
 			},
 			{
-				"fullValue":"Darien,
-				 CT 06820"
+				"fullValue":"Twinsburg,
+				 OH 44087"
 			}
 		]
 	},
@@ -168,10 +175,10 @@
 	"hasBadGeocode":false,
 	"hasPublicVideo":false,
 	"hasVRModel":null,
-	"hdpTypeDimension":"Zestimate",
-	"hdpUrl":"/homedetails/6-Nutmeg-Ln-Darien-CT-06820/57283238_zpid/",
-	"hiResImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1025x768&zoom=17&center=41.08419418334961,
-	-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=7xLOaUYD6-7Q9qpmIUvFqNMzpyI=",
+	"hdpTypeDimension":"RecentlySold",
+	"hdpUrl":"/homedetails/2592-Burridge-Cir-Twinsburg-OH-44087/35413966_zpid/",
+	"hiResImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1025x768&zoom=17&center=41.31391143798828,
+	-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=mcrv77rPI-h7uPfj02SSTgAWop0=",
 	"hideZMA":false,
 	"hideZestimate":false,
 	"homeInsights":null,
@@ -181,18 +188,18 @@
 		],
 		"displayShort":""
 	},
-	"homeStatus":"OTHER",
-	"homeType":"SINGLE_FAMILY",
+	"homeStatus":"SOLD",
+	"homeType":"CONDO",
 	"homeValues":null,
 	"housesForRentInZipcodeSearchUrl":{
-		"path":"/darien-ct-06820/rent-houses/"
+		"path":"/twinsburg-oh-44087/rent-houses/"
 	},
 	"hugePhotos":[
 		{
 			"caption":"",
 			"height":768,
-			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1025x768&zoom=17&center=41.08419418334961,
-			-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=7xLOaUYD6-7Q9qpmIUvFqNMzpyI=",
+			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1025x768&zoom=17&center=41.31391143798828,
+			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=mcrv77rPI-h7uPfj02SSTgAWop0=",
 			"width":1025
 		}
 	],
@@ -213,9 +220,9 @@
 	"isRentalsLeadCapMet":false,
 	"isUndisclosedAddress":false,
 	"isZillowOwned":false,
-	"keystoneHomeStatus":"NotForSale",
-	"lastSoldPrice":1925000,
-	"latitude":41.084194,
+	"keystoneHomeStatus":"RecentlySold",
+	"lastSoldPrice":190000,
+	"latitude":41.31391,
 	"listPriceLow":null,
 	"listingAccountUserId":null,
 	"listingDataSource":"Legacy",
@@ -320,35 +327,35 @@
 		"is_openHouse":false,
 		"is_pending":false
 	},
-	"livingArea":5803,
+	"livingArea":1596,
 	"livingAreaUnits":"Square Feet",
 	"livingAreaUnitsShort":"sqft",
-	"livingAreaValue":5803,
-	"longitude":-73.495155,
-	"lotAreaUnits":"Acres",
-	"lotAreaValue":1,
-	"lotSize":43560,
-	"mapTileGoogleMapUrlFullWidthLightbox":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=16&size=1024x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=282HaoCDG6O8wIzSP3TeU7P8_Jg=",
-	"mapTileGoogleMapUrlFullWidthLightboxWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=12&size=1024x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=7oOzZmBwDz_RCEg-YV92H8HXJ4E=",
-	"mapTileGoogleMapUrlFullWidthMax":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=16&size=1920x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=1&signature=GkXeL9N77jFp0wvuNO5nH9kw_xU=",
-	"mapTileGoogleMapUrlFullWidthMaxWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=12&size=1920x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=1&signature=nEFpyKfBe0Oj5IEjc1OCCKfhpwQ=",
-	"mapTileGoogleMapUrlSmall":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=14&size=280x208&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=ej8Kvi9zci3VzYKTkn56vUVM3VI=",
-	"mapTileGoogleMapUrlSmallWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-	-73.495155&zoom=12&size=280x208&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=9S7Gao6UJjSRW1FfWKT6xYWLYYA=",
+	"livingAreaValue":1596,
+	"longitude":-81.446144,
+	"lotAreaUnits":"Square Feet",
+	"lotAreaValue":1594,
+	"lotSize":1594,
+	"mapTileGoogleMapUrlFullWidthLightbox":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=16&size=1024x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=pywRQgPgApIwDN_fL5YL4wgad4A=",
+	"mapTileGoogleMapUrlFullWidthLightboxWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=12&size=1024x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=VDDP4GDhUAqGgjOcUsFtIkS7L-M=",
+	"mapTileGoogleMapUrlFullWidthMax":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=16&size=1920x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=1&signature=gFLPaYm5vptLgJS-ZhO2oc8e6aA=",
+	"mapTileGoogleMapUrlFullWidthMaxWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=12&size=1920x234&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=1&signature=2UdvmULbp4ZRh76GWwB0XymsOmE=",
+	"mapTileGoogleMapUrlSmall":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=14&size=280x208&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=tzKWJ9Im_K5pAWmix4oED4LE0EM=",
+	"mapTileGoogleMapUrlSmallWholeZipcode":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+	-81.446144&zoom=12&size=280x208&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&scale=2&signature=O9z2lkoU70Q8tlwS8_r2HWPngtc=",
 	"marketingName":null,
-	"mediumImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.08419418334961,
-	-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=QdiGt8mn0Ri27nIItctWzG5xY4Y=",
+	"mediumImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.31391143798828,
+	-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=kPSDdzizMmye6ZE3Hph7-ujUzXE=",
 	"mlsid":null,
-	"monthlyHoaFee":null,
+	"monthlyHoaFee":251,
 	"mortgageRates":{
-		"arm5Rate":5.793,
-		"fifteenYearFixedRate":5.495,
-		"thirtyYearFixedRate":6.086
+		"arm5Rate":6.948,
+		"fifteenYearFixedRate":6.33,
+		"thirtyYearFixedRate":6.671
 	},
 	"moveHomeMapLocationLink":null,
 	"moveInCompletionDate":null,
@@ -356,157 +363,102 @@
 	"nearbyCities":[
 		{
 			"body":null,
-			"name":"Bridgeport",
+			"name":"Akron",
 			"regionUrl":{
-				"path":"/bridgeport-ct/"
+				"path":"/akron-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Danbury",
+			"name":"Barberton",
 			"regionUrl":{
-				"path":"/danbury-ct/"
+				"path":"/barberton-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Fairfield",
+			"name":"Copley",
 			"regionUrl":{
-				"path":"/fairfield-ct/"
+				"path":"/copley-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Greenwich",
+			"name":"Cuyahoga Falls",
 			"regionUrl":{
-				"path":"/greenwich-ct/"
+				"path":"/cuyahoga-falls-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Newtown",
+			"name":"Green",
 			"regionUrl":{
-				"path":"/newtown-ct/"
+				"path":"/green-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Norwalk",
+			"name":"Hudson",
 			"regionUrl":{
-				"path":"/norwalk-ct/"
+				"path":"/hudson-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Shelton",
+			"name":"Northfield",
 			"regionUrl":{
-				"path":"/shelton-ct/"
+				"path":"/northfield-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Stamford",
+			"name":"Stow",
 			"regionUrl":{
-				"path":"/stamford-ct/"
+				"path":"/stow-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Stratford",
+			"name":"Tallmadge",
 			"regionUrl":{
-				"path":"/stratford-ct/"
+				"path":"/tallmadge-oh/"
 			}
 		},
 		{
 			"body":null,
-			"name":"Trumbull",
+			"name":"Twinsburg",
 			"regionUrl":{
-				"path":"/trumbull-ct/"
+				"path":"/twinsburg-oh/"
 			}
 		}
 	],
 	"nearbyHomes":[
 		{
 			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"4 Nutmeg Ln",
-				"zipcode":"06820"
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2594 Burridge Cir",
+				"zipcode":"44087"
 			},
 			"attributionInfo":{
 				"agentName":null,
 				"agentPhoneNumber":null,
 				"brokerName":null,
 				"brokerPhoneNumber":null,
-				"mlsId":null,
+				"mlsId":"4071006",
 				"mlsName":null,
 				"providerLogo":null,
 				"trueStatus":null
 			},
-			"bathrooms":10,
-			"bedrooms":6,
+			"bathrooms":2,
+			"bedrooms":3,
 			"currency":"USD",
-			"hdpUrl":"/homedetails/4-Nutmeg-Ln-Darien-CT-06820/57283237_zpid/",
-			"homeStatus":"SOLD",
-			"homeType":"SINGLE_FAMILY",
-			"isPremierBuilder":false,
-			"isZillowOwned":false,
-			"latitude":41.084206,
-			"listing_sub_type":{
-				"is_FSBA":false,
-				"is_FSBO":false,
-				"is_bankOwned":false,
-				"is_comingSoon":false,
-				"is_forAuction":false,
-				"is_foreclosure":false,
-				"is_newHome":false
-			},
-			"livingArea":5950,
-			"livingAreaUnits":"Square Feet",
-			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":5950,
-			"longitude":-73.495926,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":1.0599862258953168,
-			"lotSize":46173,
-			"miniCardPhotos":[
-				{
-					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.084205627441406,
-					-73.49592590332031&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=50CMtNwTouLFe2q1O-cHgoAKJjA="
-				}
-			],
-			"newConstructionType":null,
-			"price":2712500,
-			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283237
-		},
-		{
-			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"354 Hollow Tree Ridge Rd",
-				"zipcode":"06820"
-			},
-			"attributionInfo":{
-				"agentName":null,
-				"agentPhoneNumber":null,
-				"brokerName":null,
-				"brokerPhoneNumber":null,
-				"mlsId":null,
-				"mlsName":null,
-				"providerLogo":null,
-				"trueStatus":null
-			},
-			"bathrooms":7,
-			"bedrooms":7,
-			"currency":"USD",
-			"hdpUrl":"/homedetails/354-Hollow-Tree-Ridge-Rd-Darien-CT-06820/57283235_zpid/",
+			"hdpUrl":"/homedetails/2594-Burridge-Cir-Twinsburg-OH-44087/35413965_zpid/",
 			"homeStatus":"OTHER",
-			"homeType":"SINGLE_FAMILY",
+			"homeType":"CONDO",
 			"isPremierBuilder":false,
 			"isZillowOwned":false,
-			"latitude":41.084747,
+			"latitude":41.313812,
 			"listing_sub_type":{
 				"is_FSBA":false,
 				"is_FSBO":false,
@@ -516,32 +468,31 @@
 				"is_foreclosure":false,
 				"is_newHome":false
 			},
-			"livingArea":10500,
+			"livingArea":1691,
 			"livingAreaUnits":"Square Feet",
 			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":10500,
-			"longitude":-73.49545,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":1.5299816345270891,
-			"lotSize":66646,
+			"livingAreaValue":1691,
+			"longitude":-81.44604,
+			"lotAreaUnits":"sqft",
+			"lotAreaValue":null,
+			"lotSize":null,
 			"miniCardPhotos":[
 				{
-					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.084747314453125,
-					-73.49545288085938&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=hEhIo6ykA9HosUpCx8l0bFCOJoQ="
+					"url":"https://photos.zillowstatic.com/fp/5ebffabc536e4073f03f16f80813cad4-p_c.jpg"
 				}
 			],
 			"newConstructionType":null,
-			"price":3449700,
+			"price":241100,
 			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283235
+			"state":"OH",
+			"zpid":35413965
 		},
 		{
 			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"8 Nutmeg Ln",
-				"zipcode":"06820"
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2594 Burridge Cir",
+				"zipcode":"44087"
 			},
 			"attributionInfo":{
 				"agentName":null,
@@ -553,70 +504,15 @@
 				"providerLogo":null,
 				"trueStatus":null
 			},
-			"bathrooms":2.5,
-			"bedrooms":4,
+			"bathrooms":2,
+			"bedrooms":3,
 			"currency":"USD",
-			"hdpUrl":"/homedetails/8-Nutmeg-Ln-Darien-CT-06820/57283239_zpid/",
-			"homeStatus":"SOLD",
-			"homeType":"SINGLE_FAMILY",
-			"isPremierBuilder":false,
-			"isZillowOwned":false,
-			"latitude":41.084225,
-			"listing_sub_type":{
-				"is_FSBA":false,
-				"is_FSBO":false,
-				"is_bankOwned":false,
-				"is_comingSoon":false,
-				"is_forAuction":false,
-				"is_foreclosure":false,
-				"is_newHome":false
-			},
-			"livingArea":2626,
-			"livingAreaUnits":"Square Feet",
-			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":2626,
-			"longitude":-73.49436,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":1.0399908172635446,
-			"lotSize":45302,
-			"miniCardPhotos":[
-				{
-					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.084224700927734,
-					-73.4943618774414&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=DB3Md3KNchD-bnZKfgOomNz_Q0s="
-				}
-			],
-			"newConstructionType":null,
-			"price":2712500,
-			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283239
-		},
-		{
-			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"358 Hollow Tree Ridge Rd",
-				"zipcode":"06820"
-			},
-			"attributionInfo":{
-				"agentName":null,
-				"agentPhoneNumber":null,
-				"brokerName":null,
-				"brokerPhoneNumber":null,
-				"mlsId":null,
-				"mlsName":null,
-				"providerLogo":null,
-				"trueStatus":null
-			},
-			"bathrooms":5,
-			"bedrooms":5,
-			"currency":"USD",
-			"hdpUrl":"/homedetails/358-Hollow-Tree-Ridge-Rd-Darien-CT-06820/58779263_zpid/",
+			"hdpUrl":"/homedetails/2594-Burridge-Cir-Twinsburg-OH-44087/2144057779_zpid/",
 			"homeStatus":"OTHER",
-			"homeType":"SINGLE_FAMILY",
+			"homeType":"CONDO",
 			"isPremierBuilder":false,
 			"isZillowOwned":false,
-			"latitude":41.084846,
+			"latitude":41.313812,
 			"listing_sub_type":{
 				"is_FSBA":false,
 				"is_FSBO":false,
@@ -626,86 +522,31 @@
 				"is_foreclosure":false,
 				"is_newHome":false
 			},
-			"livingArea":4926,
+			"livingArea":1691,
 			"livingAreaUnits":"Square Feet",
 			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":4926,
-			"longitude":-73.49441,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":2.25,
-			"lotSize":98010,
-			"miniCardPhotos":[
-				{
-					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.08484649658203,
-					-73.4944076538086&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Noo-B3sIjVDUmOu7fdOvvHp_OzI="
-				}
-			],
-			"newConstructionType":null,
-			"price":2481500,
-			"providerListingID":null,
-			"state":"CT",
-			"zpid":58779263
-		},
-		{
-			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"350 Hollow Tree Ridge Rd",
-				"zipcode":"06820"
-			},
-			"attributionInfo":{
-				"agentName":null,
-				"agentPhoneNumber":null,
-				"brokerName":null,
-				"brokerPhoneNumber":null,
-				"mlsId":"170369296",
-				"mlsName":null,
-				"providerLogo":null,
-				"trueStatus":null
-			},
-			"bathrooms":10,
-			"bedrooms":7,
-			"currency":"USD",
-			"hdpUrl":"/homedetails/350-Hollow-Tree-Ridge-Rd-Darien-CT-06820/57283234_zpid/",
-			"homeStatus":"SOLD",
-			"homeType":"SINGLE_FAMILY",
-			"isPremierBuilder":false,
-			"isZillowOwned":false,
-			"latitude":41.084713,
-			"listing_sub_type":{
-				"is_FSBA":false,
-				"is_FSBO":false,
-				"is_bankOwned":false,
-				"is_comingSoon":false,
-				"is_forAuction":false,
-				"is_foreclosure":false,
-				"is_newHome":false
-			},
-			"livingArea":8050,
-			"livingAreaUnits":"Square Feet",
-			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":8050,
-			"longitude":-73.49657,
+			"livingAreaValue":1691,
+			"longitude":-81.44604,
 			"lotAreaUnits":"Square Feet",
-			"lotAreaValue":1.49,
-			"lotSize":1,
+			"lotAreaValue":1698,
+			"lotSize":1698,
 			"miniCardPhotos":[
 				{
-					"url":"https://photos.zillowstatic.com/fp/3bd3c46ddf90c4d6ccef3c292e79b27e-p_c.jpg"
+					"url":"https://photos.zillowstatic.com/fp/6900feb58d4fed09ea11dfe23b3782e7-p_c.jpg"
 				}
 			],
 			"newConstructionType":null,
-			"price":4079575,
+			"price":221800,
 			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283234
+			"state":"OH",
+			"zpid":2144057779
 		},
 		{
 			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"3 Nutmeg Ln",
-				"zipcode":"06820"
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2596 Burridge Cir",
+				"zipcode":"44087"
 			},
 			"attributionInfo":{
 				"agentName":null,
@@ -717,15 +558,15 @@
 				"providerLogo":null,
 				"trueStatus":null
 			},
-			"bathrooms":5,
-			"bedrooms":4,
+			"bathrooms":2,
+			"bedrooms":3,
 			"currency":"USD",
-			"hdpUrl":"/homedetails/3-Nutmeg-Ln-Darien-CT-06820/57283241_zpid/",
+			"hdpUrl":"/homedetails/2596-Burridge-Cir-Twinsburg-OH-44087/35413964_zpid/",
 			"homeStatus":"OTHER",
-			"homeType":"SINGLE_FAMILY",
+			"homeType":"CONDO",
 			"isPremierBuilder":false,
 			"isZillowOwned":false,
-			"latitude":41.083622,
+			"latitude":41.313686,
 			"listing_sub_type":{
 				"is_FSBA":false,
 				"is_FSBO":false,
@@ -735,85 +576,32 @@
 				"is_foreclosure":false,
 				"is_newHome":false
 			},
-			"livingArea":6509,
+			"livingArea":1775,
 			"livingAreaUnits":"Square Feet",
 			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":6509,
-			"longitude":-73.49659,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":0.8799816345270891,
-			"lotSize":38332,
-			"miniCardPhotos":[
-				{
-					"url":"https://photos.zillowstatic.com/fp/6f2d196556ce872add39356b2e094b09-p_c.jpg"
-				}
-			],
-			"newConstructionType":null,
-			"price":2980400,
-			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283241
-		},
-		{
-			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"336 Hollow Tree Ridge Rd",
-				"zipcode":"06820"
-			},
-			"attributionInfo":{
-				"agentName":null,
-				"agentPhoneNumber":null,
-				"brokerName":null,
-				"brokerPhoneNumber":null,
-				"mlsId":"170404582",
-				"mlsName":null,
-				"providerLogo":null,
-				"trueStatus":null
-			},
-			"bathrooms":5,
-			"bedrooms":5,
-			"currency":"USD",
-			"hdpUrl":"/homedetails/336-Hollow-Tree-Ridge-Rd-Darien-CT-06820/57283236_zpid/",
-			"homeStatus":"SOLD",
-			"homeType":"SINGLE_FAMILY",
-			"isPremierBuilder":false,
-			"isZillowOwned":false,
-			"latitude":41.084187,
-			"listing_sub_type":{
-				"is_FSBA":false,
-				"is_FSBO":false,
-				"is_bankOwned":false,
-				"is_comingSoon":false,
-				"is_forAuction":false,
-				"is_foreclosure":false,
-				"is_newHome":false
-			},
-			"livingArea":4381,
-			"livingAreaUnits":"Square Feet",
-			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":4381,
-			"longitude":-73.49678,
+			"livingAreaValue":1775,
+			"longitude":-81.44613,
 			"lotAreaUnits":"Square Feet",
-			"lotAreaValue":1.16,
-			"lotSize":1,
+			"lotAreaValue":1772,
+			"lotSize":1772,
 			"miniCardPhotos":[
 				{
-					"url":"https://photos.zillowstatic.com/fp/d1f1df8ce84b2e7ee6fa57d3cf9ba190-p_c.jpg"
+					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.31368637084961,
+					-81.44612884521484&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=0pQLPa8wmFtDAt0_5U98506FaAo="
 				}
 			],
 			"newConstructionType":null,
-			"price":2450000,
+			"price":163320,
 			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283236
+			"state":"OH",
+			"zpid":35413964
 		},
 		{
 			"address":{
-				"city":"Darien",
-				"state":"CT",
-				"streetAddress":"366 Hollow Tree Ridge Rd",
-				"zipcode":"06820"
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"9045 Twin Hills Pkwy",
+				"zipcode":"44087"
 			},
 			"attributionInfo":{
 				"agentName":null,
@@ -825,15 +613,15 @@
 				"providerLogo":null,
 				"trueStatus":null
 			},
-			"bathrooms":5.5,
-			"bedrooms":6,
+			"bathrooms":2,
+			"bedrooms":2,
 			"currency":"USD",
-			"hdpUrl":"/homedetails/366-Hollow-Tree-Ridge-Rd-Darien-CT-06820/57283231_zpid/",
+			"hdpUrl":"/homedetails/9045-Twin-Hills-Pkwy-Twinsburg-OH-44087/35414025_zpid/",
 			"homeStatus":"OTHER",
-			"homeType":"SINGLE_FAMILY",
+			"homeType":"CONDO",
 			"isPremierBuilder":false,
 			"isZillowOwned":false,
-			"latitude":41.085587,
+			"latitude":41.313847,
 			"listing_sub_type":{
 				"is_FSBA":false,
 				"is_FSBO":false,
@@ -843,24 +631,244 @@
 				"is_foreclosure":false,
 				"is_newHome":false
 			},
-			"livingArea":6775,
+			"livingArea":1238,
 			"livingAreaUnits":"Square Feet",
 			"livingAreaUnitsShort":"sqft",
-			"livingAreaValue":6775,
-			"longitude":-73.496025,
-			"lotAreaUnits":"Acres",
-			"lotAreaValue":1.75,
-			"lotSize":76230,
+			"livingAreaValue":1238,
+			"longitude":-81.44649,
+			"lotAreaUnits":"Square Feet",
+			"lotAreaValue":1237,
+			"lotSize":1237,
 			"miniCardPhotos":[
 				{
-					"url":"https://photos.zillowstatic.com/fp/d4309bbca33a12d20c303b274cb4d9a4-p_c.jpg"
+					"url":"https://photos.zillowstatic.com/fp/798954a303468865709a5623e5901897-p_c.jpg"
 				}
 			],
 			"newConstructionType":null,
-			"price":4296700,
+			"price":199600,
 			"providerListingID":null,
-			"state":"CT",
-			"zpid":57283231
+			"state":"OH",
+			"zpid":35414025
+		},
+		{
+			"address":{
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"9043 Twin Hills Pkwy",
+				"zipcode":"44087"
+			},
+			"attributionInfo":{
+				"agentName":null,
+				"agentPhoneNumber":null,
+				"brokerName":null,
+				"brokerPhoneNumber":null,
+				"mlsId":null,
+				"mlsName":null,
+				"providerLogo":null,
+				"trueStatus":null
+			},
+			"bathrooms":2,
+			"bedrooms":2,
+			"currency":"USD",
+			"hdpUrl":"/homedetails/9043-Twin-Hills-Pkwy-Twinsburg-OH-44087/35414024_zpid/",
+			"homeStatus":"OTHER",
+			"homeType":"CONDO",
+			"isPremierBuilder":false,
+			"isZillowOwned":false,
+			"latitude":41.31372,
+			"listing_sub_type":{
+				"is_FSBA":false,
+				"is_FSBO":false,
+				"is_bankOwned":false,
+				"is_comingSoon":false,
+				"is_forAuction":false,
+				"is_foreclosure":false,
+				"is_newHome":false
+			},
+			"livingArea":1258,
+			"livingAreaUnits":"Square Feet",
+			"livingAreaUnitsShort":"sqft",
+			"livingAreaValue":1258,
+			"longitude":-81.44648,
+			"lotAreaUnits":"Square Feet",
+			"lotAreaValue":1258,
+			"lotSize":1258,
+			"miniCardPhotos":[
+				{
+					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.313720703125,
+					-81.44647979736328&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=eYwoEUggbno8AkYCaVE5OXDqnjU="
+				}
+			],
+			"newConstructionType":null,
+			"price":194600,
+			"providerListingID":null,
+			"state":"OH",
+			"zpid":35414024
+		},
+		{
+			"address":{
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2603 Burridge Cir",
+				"zipcode":"44087"
+			},
+			"attributionInfo":{
+				"agentName":null,
+				"agentPhoneNumber":null,
+				"brokerName":null,
+				"brokerPhoneNumber":null,
+				"mlsId":null,
+				"mlsName":null,
+				"providerLogo":null,
+				"trueStatus":null
+			},
+			"bathrooms":2,
+			"bedrooms":2,
+			"currency":"USD",
+			"hdpUrl":"/homedetails/2603-Burridge-Cir-Twinsburg-OH-44087/35413967_zpid/",
+			"homeStatus":"OTHER",
+			"homeType":"CONDO",
+			"isPremierBuilder":false,
+			"isZillowOwned":false,
+			"latitude":41.314106,
+			"listing_sub_type":{
+				"is_FSBA":false,
+				"is_FSBO":false,
+				"is_bankOwned":false,
+				"is_comingSoon":false,
+				"is_forAuction":false,
+				"is_foreclosure":false,
+				"is_newHome":false
+			},
+			"livingArea":1443,
+			"livingAreaUnits":"Square Feet",
+			"livingAreaUnitsShort":"sqft",
+			"livingAreaValue":1443,
+			"longitude":-81.44578,
+			"lotAreaUnits":"Square Feet",
+			"lotAreaValue":1441,
+			"lotSize":1441,
+			"miniCardPhotos":[
+				{
+					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.31410598754883,
+					-81.4457778930664&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=b7KdQShJWvQdfpXfL9zuWKnYKe4="
+				}
+			],
+			"newConstructionType":null,
+			"price":204300,
+			"providerListingID":null,
+			"state":"OH",
+			"zpid":35413967
+		},
+		{
+			"address":{
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2598 Burridge Cir",
+				"zipcode":"44087"
+			},
+			"attributionInfo":{
+				"agentName":null,
+				"agentPhoneNumber":null,
+				"brokerName":null,
+				"brokerPhoneNumber":null,
+				"mlsId":null,
+				"mlsName":null,
+				"providerLogo":null,
+				"trueStatus":null
+			},
+			"bathrooms":2,
+			"bedrooms":3,
+			"currency":"USD",
+			"hdpUrl":"/homedetails/2598-Burridge-Cir-Twinsburg-OH-44087/35413963_zpid/",
+			"homeStatus":"OTHER",
+			"homeType":"CONDO",
+			"isPremierBuilder":false,
+			"isZillowOwned":false,
+			"latitude":41.31354,
+			"listing_sub_type":{
+				"is_FSBA":false,
+				"is_FSBO":false,
+				"is_bankOwned":false,
+				"is_comingSoon":false,
+				"is_forAuction":false,
+				"is_foreclosure":false,
+				"is_newHome":false
+			},
+			"livingArea":1482,
+			"livingAreaUnits":"Square Feet",
+			"livingAreaUnitsShort":"sqft",
+			"livingAreaValue":1482,
+			"longitude":-81.44616,
+			"lotAreaUnits":"Square Feet",
+			"lotAreaValue":1481,
+			"lotSize":1481,
+			"miniCardPhotos":[
+				{
+					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.313541412353516,
+					-81.44615936279297&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=_Bstsh3ch9-9dJ6isBsvb9S-Oa8="
+				}
+			],
+			"newConstructionType":null,
+			"price":211500,
+			"providerListingID":null,
+			"state":"OH",
+			"zpid":35413963
+		},
+		{
+			"address":{
+				"city":"Twinsburg",
+				"state":"OH",
+				"streetAddress":"2605 Burridge Cir",
+				"zipcode":"44087"
+			},
+			"attributionInfo":{
+				"agentName":null,
+				"agentPhoneNumber":null,
+				"brokerName":null,
+				"brokerPhoneNumber":null,
+				"mlsId":null,
+				"mlsName":null,
+				"providerLogo":null,
+				"trueStatus":null
+			},
+			"bathrooms":2,
+			"bedrooms":3,
+			"currency":"USD",
+			"hdpUrl":"/homedetails/2605-Burridge-Cir-Twinsburg-OH-44087/35413968_zpid/",
+			"homeStatus":"OTHER",
+			"homeType":"CONDO",
+			"isPremierBuilder":false,
+			"isZillowOwned":false,
+			"latitude":41.313995,
+			"listing_sub_type":{
+				"is_FSBA":false,
+				"is_FSBO":false,
+				"is_bankOwned":false,
+				"is_comingSoon":false,
+				"is_forAuction":false,
+				"is_foreclosure":false,
+				"is_newHome":false
+			},
+			"livingArea":1326,
+			"livingAreaUnits":"Square Feet",
+			"livingAreaUnitsShort":"sqft",
+			"livingAreaValue":1326,
+			"longitude":-81.44566,
+			"lotAreaUnits":"Square Feet",
+			"lotAreaValue":1324,
+			"lotSize":1324,
+			"miniCardPhotos":[
+				{
+					"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=316x234&zoom=17&center=41.313995361328125,
+					-81.44566345214844&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=d_b-7FFf0C06oqtwrKHNY0Isl04="
+				}
+			],
+			"newConstructionType":null,
+			"price":193100,
+			"providerListingID":null,
+			"state":"OH",
+			"zpid":35413968
 		}
 	],
 	"nearbyNeighborhoods":[
@@ -869,9 +877,9 @@
 	"nearbyZipcodes":[
 		{
 			"body":null,
-			"name":"06820",
+			"name":"44087",
 			"regionUrl":{
-				"path":"/darien-ct-06820/"
+				"path":"/twinsburg-oh-44087/"
 			}
 		}
 	],
@@ -882,35 +890,35 @@
 		"decisionContext":{
 			
 		},
-		"eventId":"6434a95c-2a2d-4565-9b3c-36755ddf9012",
+		"eventId":"c86917a7-a54b-49fd-b198-f6dd43ae5d4c",
 		"messages":[
 			{
-				"bucket":"PORTFOLIO_INTEGRATION_CTRL",
+				"bucket":"BASELINE_TREATMENT",
 				"decisionContext":{
-					"city":"Darien",
-					"countyId":"2694",
+					"city":"Twinsburg",
+					"countyId":"1404",
 					"displayCategory":"none",
-					"guid":"d63c65dd-e056-437c-8904-c6e14178dfc7",
+					"guid":"c442dc9d-03a7-4a59-83e2-48f240726797",
 					"hasUserClaimedHome":false,
-					"homeStatus":"zestimate",
-					"homeType":"SINGLE_FAMILY",
+					"homeStatus":"recentlySold",
+					"homeType":"CONDO",
 					"isAdsRestricted":false,
 					"isZillowOwned":false,
 					"leadType":"PARTNER_LEADS_INTEREST_LIST",
 					"leadTypes":[
 						"PARTNER_LEADS_INTEREST_LIST"
 					],
-					"listPrice":2803500,
+					"listPrice":190000,
 					"placementId":"wow-top",
 					"shouldDisplayUpsell":false,
-					"state":"CT",
-					"stateId":"11",
-					"streetAddress":"6 Nutmeg Ln",
+					"state":"OH",
+					"stateId":"44",
+					"streetAddress":"2592 Burridge Cir",
 					"surfaceId":"fshdp",
-					"zipcode":"06820",
+					"zipcode":"44087",
 					"zoMarketCode":"OZM"
 				},
-				"eventId":"c3022347-b936-42b8-ac50-df2892157082",
+				"eventId":"074309ad-e6f5-4e71-a44b-b41f55667888",
 				"isGlobalHoldout":false,
 				"lastModified":"1676890847",
 				"passThrottle":true,
@@ -918,24 +926,54 @@
 				"placementName":"HDPTopSlot",
 				"qualifiedTreatments":[
 					{
+						"id":3718,
+						"lastModified":"1674493271",
+						"name":"zhl_purchase_fshdp_top_pre-qual-3-minutes",
+						"status":"BASELINE_EVALUATION"
+					},
+					{
+						"id":3713,
+						"lastModified":"1674493417",
+						"name":"zhl_purchase_fshdp_top_pre-qual-v3",
+						"status":"BASELINE_EVALUATION"
+					},
+					{
 						"id":2239,
 						"lastModified":"1668425760",
 						"name":"ZGM_Purchase_FSHDP_Pre_Qual",
 						"status":"PORTFOLIO"
+					},
+					{
+						"id":3715,
+						"lastModified":"1674493298",
+						"name":"zhl_purchase_fshdp_top_pre-qual-affordabilty-hybrid",
+						"status":"BASELINE_EVALUATION"
+					},
+					{
+						"id":3074,
+						"lastModified":"1668425522",
+						"name":"zhl_purchase_fshdp_top_pre-qual-v2",
+						"status":"PORTFOLIO"
+					},
+					{
+						"id":3720,
+						"lastModified":"1674493355",
+						"name":"zhl_purchase_fshdp_top_pre-qual-no-impact-to-credit",
+						"status":"BASELINE_EVALUATION"
 					}
 				],
 				"selectedTreatment":{
 					"component":"UpsellWrapper",
-					"id":2239,
-					"lastModified":"1668425760",
-					"name":"ZGM_Purchase_FSHDP_Pre_Qual",
+					"id":3713,
+					"lastModified":"1674493417",
+					"name":"zhl_purchase_fshdp_top_pre-qual-v3",
 					"renderingProps":"{
-						\"actionLink\":\"https://www.zillow.com/pre-qualify/#/landing&zipCode=06820&propertyValue=2803500&propertyType=SingleFamilyHome&source=Z_ForSaleHDP_Inline&hdpSource=FS_HDP\",
+						\"actionLink\":\"https://www.zillowhomeloans.com/pre-qualify/?&source=Zillow&channel=FSHDP&utm_source=OMP&utm_medium=OMP&utm_campaign=zhl_purchase_fshdp_top_pre-qual-v3&propertyValue=190000&propertyType=CondoFourOrFewerStories&cityOrZip=44087\",
 						\"actionText\":\"Start now\",
 						\"actionType\":\"url_link\",
 						\"background\":\"backgroundBlue\",
-						\"bodyMarkdownText\":\"Talking to a lender early to get pre-qualified for a mortgage can give you an advantage in a competitive market. <p class=\\\"zg-mls-note\\\">Zillow Group Marketplace,
-						 Inc. NMLS #1303160 </p><style> div[
+						\"bodyMarkdownText\":\"At Zillow Home Loans,
+						 we can pre-qualify you in as little as 3 minutes with no impact to your credit score. <p class=\\\"zg-mls-note\\\">An equal housing lender. NMLS #10287.</p><style> div[
 							class*=Upsell-
 						] .zg-mls-note{
 							 font-size: 10px; font-weight: 400; position: absolute; right: 4px; bottom: 0; margin-bottom: -4px; color: grey; 
@@ -944,35 +982,37 @@
 						\"icon\":\"houseWithDollarSign\",
 						\"overrideMargin\":\"16px\",
 						\"hasBorder\":false,
+						\"showAdvertisement\":false,
+						\"tagInput\":\"Zillow Home Loans\",
 						\"gaImpressionCategory\":\"Homes\",
-						\"gaImpressionAction\":\"ZGM Purchase Upsell\",
-						\"gaImpressionLabel\":\"Display|fshdp|wow-top|zgm-purchase|get-pre-qualified|omp\",
+						\"gaImpressionAction\":\"ZHL Purchase Upsell\",
+						\"gaImpressionLabel\":\"Display|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\",
 						\"gaEngagementCategory\":\"Homes\",
-						\"gaEngagementAction\":\"ZGM Purchase Upsell\",
-						\"gaEngagementLabel\":\"Click|fshdp|wow-top|zgm-purchase|get-pre-qualified|omp\",
+						\"gaEngagementAction\":\"ZHL Purchase Upsell\",
+						\"gaEngagementLabel\":\"Click|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\",
 						\"gaHoverCategory\":\"Homes\",
-						\"gaHoverAction\":\"ZGM Purchase Upsell\",
-						\"gaHoverLabel\":\"Hover|fshdp|wow-top|zgm-purchase|get-pre-qualified|omp\"
+						\"gaHoverAction\":\"ZHL Purchase Upsell\",
+						\"gaHoverLabel\":\"Hover|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\"
 					}",
-					"status":"PORTFOLIO"
+					"status":"BASELINE_EVALUATION"
 				},
 				"shouldDisplay":true,
 				"skipDisplayReason":null,
-				"testPhase":"PORTFOLIO_INTEGRATION"
+				"testPhase":"BASELINE"
 			}
 		]
 	},
 	"openHouseSchedule":[
 		
 	],
-	"pageUrlFragment":"Zestimate",
-	"pageViewCount":1,
+	"pageUrlFragment":"RecentlySold",
+	"pageViewCount":2,
 	"pals":[
 		
 	],
-	"parcelId":"DARIM09B124",
+	"parcelId":"6406475",
 	"parentRegion":{
-		"name":"06820"
+		"name":"44087"
 	},
 	"photoCount":1,
 	"photos":[
@@ -981,85 +1021,85 @@
 			"mixedSources":{
 				"jpeg":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=DO8Qc1HviqCl8m7SIw8fbcqfq1A=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=ckN43ta1dOaAt18g3PBQdMvVrLw=",
 						"width":192
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPs2zLtk2eGvoPFK9JLZnoPiv8w=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=pS38Ys-1_Mxn4pXepmT9RO4QRVU=",
 						"width":384
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=8a6QSnMBmNKMfEekZLgQEWfoYPo=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=u5eFqfzfuvW6opp8CIbFfZ9V6B8=",
 						"width":576
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Y7XcF0bvzTIkoUhECE20BYGJvaU=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=nsusngJscapLDNZSB7qrR9M2NYw=",
 						"width":768
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=_1fLO2OGAp00DJYjMah5Di5YY-o=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=hVOHD7tGAVkwZ1q0hmn3G5O-InI=",
 						"width":960
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=P6Zl0uEhbYbdhiY_0FfyJXDSeX4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=9PgdwevcSt8VP6A2vx22cuvPEl8=",
 						"width":1152
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				],
 				"webp":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=DO8Qc1HviqCl8m7SIw8fbcqfq1A=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=ckN43ta1dOaAt18g3PBQdMvVrLw=",
 						"width":192
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPs2zLtk2eGvoPFK9JLZnoPiv8w=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=pS38Ys-1_Mxn4pXepmT9RO4QRVU=",
 						"width":384
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=8a6QSnMBmNKMfEekZLgQEWfoYPo=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=u5eFqfzfuvW6opp8CIbFfZ9V6B8=",
 						"width":576
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Y7XcF0bvzTIkoUhECE20BYGJvaU=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=nsusngJscapLDNZSB7qrR9M2NYw=",
 						"width":768
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=_1fLO2OGAp00DJYjMah5Di5YY-o=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=hVOHD7tGAVkwZ1q0hmn3G5O-InI=",
 						"width":960
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=P6Zl0uEhbYbdhiY_0FfyJXDSeX4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=9PgdwevcSt8VP6A2vx22cuvPEl8=",
 						"width":1152
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				]
@@ -1072,7 +1112,7 @@
 	},
 	"postingProductType":"Standard",
 	"postingUrl":null,
-	"price":2803500,
+	"price":190000,
 	"priceChange":null,
 	"priceChangeDate":null,
 	"priceChangeDateString":null,
@@ -1084,16 +1124,16 @@
 				"infoString3":null
 			},
 			"buyerAgent":null,
-			"date":"2001-08-17",
+			"date":"2021-04-30",
 			"event":"Sold",
 			"postingIsRental":false,
-			"price":1925000,
-			"priceChangeRate":3.5294117647058822,
-			"pricePerSquareFoot":332,
+			"price":190000,
+			"priceChangeRate":0.3380281690140845,
+			"pricePerSquareFoot":119,
 			"sellerAgent":null,
 			"showCountyLink":false,
 			"source":"Public Record",
-			"time_1":998006400000
+			"time_1":1619740800000
 		},
 		{
 			"attributeSource":{
@@ -1102,26 +1142,44 @@
 				"infoString3":null
 			},
 			"buyerAgent":null,
-			"date":"1998-06-30",
+			"date":"2001-04-05",
 			"event":"Sold",
 			"postingIsRental":false,
-			"price":425000,
-			"priceChangeRate":0,
-			"pricePerSquareFoot":73,
+			"price":142000,
+			"priceChangeRate":0.19337759475586183,
+			"pricePerSquareFoot":89,
 			"sellerAgent":null,
 			"showCountyLink":false,
 			"source":"Public Record",
-			"time_2":899164800000
+			"time_2":986428800000
+		},
+		{
+			"attributeSource":{
+				"infoString1":null,
+				"infoString2":"Public Record",
+				"infoString3":null
+			},
+			"buyerAgent":null,
+			"date":"1994-11-30",
+			"event":"Sold",
+			"postingIsRental":false,
+			"price":118990,
+			"priceChangeRate":0,
+			"pricePerSquareFoot":75,
+			"sellerAgent":null,
+			"showCountyLink":false,
+			"source":"Public Record",
+			"time_3":786153600000
 		}
 	],
 	"primaryPublicVideo":null,
 	"propertyEventLogLink":null,
-	"propertyTaxRate":1.71,
-	"propertyTypeDimension":"Single Family",
+	"propertyTaxRate":1.8,
+	"propertyTypeDimension":"Condo",
 	"propertyUpdatePageLink":null,
 	"providerListingID":null,
-	"regionString":"Darien CT 06820",
-	"rentZestimate":15146,
+	"regionString":"Twinsburg OH 44087",
+	"rentZestimate":2129,
 	"rentalApplicationsAcceptedType":"REQUEST_TO_APPLY",
 	"resoFacts":{
 		"aboveGradeFinishedArea":null,
@@ -1131,7 +1189,7 @@
 		"appliances":[
 			
 		],
-		"architecturalStyle":"Colonial",
+		"architecturalStyle":null,
 		"associationAmenities":null,
 		"associationFee":null,
 		"associationFee2":null,
@@ -1143,28 +1201,28 @@
 		"atAGlanceFacts":[
 			{
 				"factLabel":"Type",
-				"factValue":"SingleFamily"
+				"factValue":"Condo"
 			},
 			{
 				"factLabel":"Year Built",
-				"factValue":"2001"
+				"factValue":"1994"
 			},
 			{
 				"factLabel":"Heating",
 				"factValue":"Other,
-				 Oil"
+				 Electric"
 			},
 			{
 				"factLabel":"Cooling",
-				"factValue":null
+				"factValue":"Central"
 			},
 			{
 				"factLabel":"Parking",
-				"factValue":"3 Parking spaces"
+				"factValue":"Garage"
 			},
 			{
-				"factLabel":"Lot",
-				"factValue":"1 Acres"
+				"factLabel":"HOA",
+				"factValue":"$251 monthly"
 			},
 			{
 				"factLabel":"Offer Review Date",
@@ -1173,15 +1231,15 @@
 		],
 		"attic":null,
 		"availabilityDate":null,
-		"basement":"Unfinished",
+		"basement":"None",
 		"basementYN":false,
-		"bathrooms":5,
-		"bathroomsFull":5,
-		"bathroomsHalf":1,
+		"bathrooms":2,
+		"bathroomsFull":2,
+		"bathroomsHalf":0,
 		"bathroomsOneQuarter":0,
 		"bathroomsPartial":null,
 		"bathroomsThreeQuarter":0,
-		"bedrooms":6,
+		"bedrooms":3,
 		"belowGradeFinishedArea":null,
 		"bodyType":null,
 		"builderModel":null,
@@ -1194,20 +1252,20 @@
 		"buyerAgencyCompensationType":null,
 		"canRaiseHorses":false,
 		"carportSpaces":null,
-		"cityRegion":"Darien",
+		"cityRegion":"Twinsburg",
 		"commonWalls":null,
 		"communityFeatures":[
 			
 		],
 		"constructionMaterials":[
-			
+			"Metal"
 		],
 		"cooling":[
-			
+			"Central"
 		],
 		"coveredSpaces":null,
 		"cropsIncludedYN":null,
-		"daysOnZillow":7858,
+		"daysOnZillow":663,
 		"depositsAndFees":null,
 		"developmentStatus":null,
 		"doorFeatures":null,
@@ -1220,13 +1278,14 @@
 		"entryLocation":null,
 		"exclusions":null,
 		"exteriorFeatures":[
-			"Wood"
+			"Vinyl"
 		],
 		"fencing":null,
 		"fireplaceFeatures":null,
 		"fireplaces":null,
 		"flooring":[
-			"Hardwood"
+			"Carpet",
+			"Laminate"
 		],
 		"foundationArea":null,
 		"foundationDetails":[
@@ -1243,11 +1302,11 @@
 		"greenSustainability":null,
 		"greenWaterConservation":null,
 		"hasAdditionalParcels":false,
-		"hasAssociation":null,
+		"hasAssociation":true,
 		"hasAttachedGarage":null,
 		"hasAttachedProperty":false,
 		"hasCarport":null,
-		"hasCooling":false,
+		"hasCooling":true,
 		"hasElectricOnProperty":null,
 		"hasFireplace":true,
 		"hasGarage":false,
@@ -1263,12 +1322,12 @@
 		"hasWaterfrontView":null,
 		"heating":[
 			"Other",
-			"Oil"
+			"Electric"
 		],
 		"highSchool":null,
 		"highSchoolDistrict":null,
-		"hoaFee":null,
-		"homeType":"SingleFamily",
+		"hoaFee":"$251 monthly",
+		"homeType":"Condo",
 		"horseAmenities":null,
 		"horseYN":null,
 		"inclusions":null,
@@ -1286,12 +1345,13 @@
 		"listAOR":null,
 		"listingId":null,
 		"listingTerms":null,
-		"livingArea":"5,
-		803 sqft",
+		"livingArea":"1,
+		596 sqft",
 		"livingAreaRange":null,
 		"livingAreaRangeUnits":null,
 		"lotFeatures":null,
-		"lotSize":"1 Acres",
+		"lotSize":"1,
+		594 sqft",
 		"lotSizeDimensions":null,
 		"mainLevelBathrooms":null,
 		"mainLevelBedrooms":null,
@@ -1312,19 +1372,19 @@
 		"otherStructures":null,
 		"ownership":null,
 		"ownershipType":null,
-		"parcelNumber":"DARIM09B124",
-		"parking":3,
+		"parcelNumber":"6406475",
+		"parking":0,
 		"parkingFeatures":[
-			"Garage - Attached"
+			"Garage"
 		],
 		"patioAndPorchFeatures":null,
 		"petsMaxWeight":null,
 		"poolFeatures":null,
-		"pricePerSquareFoot":483,
+		"pricePerSquareFoot":119,
 		"propertyCondition":null,
 		"propertySubType":null,
 		"roadSurfaceType":null,
-		"roofType":null,
+		"roofType":"Asphalt",
 		"rooms":[
 			{
 				"area":null,
@@ -1343,7 +1403,70 @@
 				"roomLengthWidthSource":null,
 				"roomLengthWidthUnits":null,
 				"roomLevel":null,
-				"roomType":"RecreationRoom",
+				"roomType":"DiningRoom",
+				"roomWidth":null,
+				"width":null
+			},
+			{
+				"area":null,
+				"description":null,
+				"dimensions":null,
+				"features":null,
+				"length":null,
+				"level":null,
+				"roomArea":null,
+				"roomAreaSource":null,
+				"roomAreaUnits":null,
+				"roomDescription":null,
+				"roomDimensions":null,
+				"roomFeatures":null,
+				"roomLength":null,
+				"roomLengthWidthSource":null,
+				"roomLengthWidthUnits":null,
+				"roomLevel":null,
+				"roomType":"FamilyRoom",
+				"roomWidth":null,
+				"width":null
+			},
+			{
+				"area":null,
+				"description":null,
+				"dimensions":null,
+				"features":null,
+				"length":null,
+				"level":null,
+				"roomArea":null,
+				"roomAreaSource":null,
+				"roomAreaUnits":null,
+				"roomDescription":null,
+				"roomDimensions":null,
+				"roomFeatures":null,
+				"roomLength":null,
+				"roomLengthWidthSource":null,
+				"roomLengthWidthUnits":null,
+				"roomLevel":null,
+				"roomType":"LaundryRoom",
+				"roomWidth":null,
+				"width":null
+			},
+			{
+				"area":null,
+				"description":null,
+				"dimensions":null,
+				"features":null,
+				"length":null,
+				"level":null,
+				"roomArea":null,
+				"roomAreaSource":null,
+				"roomAreaUnits":null,
+				"roomDescription":null,
+				"roomDimensions":null,
+				"roomFeatures":null,
+				"roomLength":null,
+				"roomLengthWidthSource":null,
+				"roomLengthWidthUnits":null,
+				"roomLevel":null,
+				"roomType":"Pantry",
 				"roomWidth":null,
 				"width":null
 			}
@@ -1356,7 +1479,7 @@
 		"storiesTotal":null,
 		"structureType":"Colonial",
 		"subdivisionName":null,
-		"taxAnnualAmount":28738,
+		"taxAnnualAmount":2978,
 		"tenantPays":null,
 		"topography":null,
 		"totalActualRent":null,
@@ -1375,7 +1498,7 @@
 		"waterfrontFeatures":null,
 		"windowFeatures":null,
 		"woodedArea":null,
-		"yearBuilt":2001,
+		"yearBuilt":1994,
 		"yearBuiltEffective":null,
 		"zoning":null,
 		"zoningDescription":null
@@ -1386,92 +1509,92 @@
 			"mixedSources":{
 				"jpeg":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=DO8Qc1HviqCl8m7SIw8fbcqfq1A=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=ckN43ta1dOaAt18g3PBQdMvVrLw=",
 						"width":192
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPs2zLtk2eGvoPFK9JLZnoPiv8w=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=pS38Ys-1_Mxn4pXepmT9RO4QRVU=",
 						"width":384
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=8a6QSnMBmNKMfEekZLgQEWfoYPo=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=u5eFqfzfuvW6opp8CIbFfZ9V6B8=",
 						"width":576
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Y7XcF0bvzTIkoUhECE20BYGJvaU=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=nsusngJscapLDNZSB7qrR9M2NYw=",
 						"width":768
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=_1fLO2OGAp00DJYjMah5Di5YY-o=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=hVOHD7tGAVkwZ1q0hmn3G5O-InI=",
 						"width":960
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=P6Zl0uEhbYbdhiY_0FfyJXDSeX4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=9PgdwevcSt8VP6A2vx22cuvPEl8=",
 						"width":1152
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				],
 				"webp":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=DO8Qc1HviqCl8m7SIw8fbcqfq1A=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=192x144&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=ckN43ta1dOaAt18g3PBQdMvVrLw=",
 						"width":192
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=BPs2zLtk2eGvoPFK9JLZnoPiv8w=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=384x288&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=pS38Ys-1_Mxn4pXepmT9RO4QRVU=",
 						"width":384
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=8a6QSnMBmNKMfEekZLgQEWfoYPo=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=576x432&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=u5eFqfzfuvW6opp8CIbFfZ9V6B8=",
 						"width":576
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Y7XcF0bvzTIkoUhECE20BYGJvaU=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=768x576&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=nsusngJscapLDNZSB7qrR9M2NYw=",
 						"width":768
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=_1fLO2OGAp00DJYjMah5Di5YY-o=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=960x720&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=hVOHD7tGAVkwZ1q0hmn3G5O-InI=",
 						"width":960
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=P6Zl0uEhbYbdhiY_0FfyJXDSeX4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1152x864&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=9PgdwevcSt8VP6A2vx22cuvPEl8=",
 						"width":1152
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				]
 			},
 			"subjectType":null,
-			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.08419418334961,
-			-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=QdiGt8mn0Ri27nIItctWzG5xY4Y="
+			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.31391143798828,
+			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=kPSDdzizMmye6ZE3Hph7-ujUzXE="
 		}
 	],
 	"responsivePhotosOriginalRatio":[
@@ -1480,95 +1603,95 @@
 			"mixedSources":{
 				"jpeg":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=800x600&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=OSCqtQwMZkdoeq_3lRly5T7vtzY=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=800x600&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=LWhawC7brd_jd9KkqdjzE_YFitw=",
 						"width":800
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1024x768&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=dTGgjFAiWao6Punt5xSGk70P1VA=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1024x768&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=eiQ6NMTYpcaLowyzTz7BBUPbTYI=",
 						"width":1024
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				],
 				"webp":[
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=800x600&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=OSCqtQwMZkdoeq_3lRly5T7vtzY=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=800x600&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=LWhawC7brd_jd9KkqdjzE_YFitw=",
 						"width":800
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1024x768&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=dTGgjFAiWao6Punt5xSGk70P1VA=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1024x768&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=eiQ6NMTYpcaLowyzTz7BBUPbTYI=",
 						"width":1024
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=MjqlkhUHigxfoM8iD8CZQkhdBC4=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1344x1008&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=gVsjL4vj5Q3KstTRFeYEcTYruJQ=",
 						"width":1344
 					},
 					{
-						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.08419418334961,
-						-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=H4_0ZptqShUmGc8yuMadUFypeFE=",
+						"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=1536x1152&zoom=17&center=41.31391143798828,
+						-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=633WClVRlLVAe9xH0z9k2bVbjPQ=",
 						"width":1536
 					}
 				]
 			}
 		}
 	],
-	"restimateHighPercent":"39",
-	"restimateLowPercent":"28",
+	"restimateHighPercent":null,
+	"restimateLowPercent":null,
 	"richMedia":null,
 	"richMediaVideos":null,
 	"schools":[
 		{
 			"assigned":null,
-			"distance":1.3,
-			"grades":"PK-5",
+			"distance":0.8,
+			"grades":"3-6",
 			"isAssigned":true,
-			"level":"Primary",
-			"link":"https://www.greatschools.org/school?id=00226&state=CT",
-			"name":"Royle Elementary School",
-			"rating":9,
-			"size":416,
-			"studentsPerTeacher":9,
-			"totalCount":1,
+			"level":"Elementary",
+			"link":"https://www.greatschools.org/school?id=04358&state=OH",
+			"name":"Geo G Dodge Elementary School",
+			"rating":7,
+			"size":952,
+			"studentsPerTeacher":17,
+			"totalCount":3,
 			"type":"Public"
 		},
 		{
 			"assigned":null,
-			"distance":0.7,
+			"distance":0.8,
 			"grades":"6-8",
 			"isAssigned":true,
 			"level":"Middle",
-			"link":"https://www.greatschools.org/school?id=00224&state=CT",
-			"name":"Middlesex Middle School",
-			"rating":10,
-			"size":1101,
-			"studentsPerTeacher":9,
+			"link":"https://www.greatschools.org/school?id=04357&state=OH",
+			"name":"R B Chamberlin Middle School",
+			"rating":7,
+			"size":681,
+			"studentsPerTeacher":16,
 			"totalCount":1,
 			"type":"Public"
 		},
 		{
 			"assigned":null,
-			"distance":0.2,
+			"distance":0.4,
 			"grades":"9-12",
 			"isAssigned":true,
 			"level":"High",
-			"link":"https://www.greatschools.org/school?id=00222&state=CT",
-			"name":"Darien High School",
-			"rating":10,
-			"size":1417,
-			"studentsPerTeacher":10,
+			"link":"https://www.greatschools.org/school?id=04356&state=OH",
+			"name":"Twinsburg High School",
+			"rating":8,
+			"size":1309,
+			"studentsPerTeacher":17,
 			"totalCount":1,
 			"type":"Public"
 		}
@@ -1576,235 +1699,229 @@
 	"sellingSoon":[
 		
 	],
-	"solarPotential":{
-		"buildFactor":44.8,
-		"climateFactor":6.19,
-		"electricityFactor":4.58,
-		"solarFactor":3.4,
-		"sunScore":58.98
-	},
+	"solarPotential":null,
 	"ssid":null,
-	"state":"CT",
-	"stateId":11,
+	"state":"OH",
+	"stateId":44,
 	"stateSearchUrl":{
-		"path":"/ct/"
+		"path":"/oh/"
 	},
 	"staticMap":{
 		"sources":[
 			{
-				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-				-73.495155&zoom=15&size=192x144&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=SKyRMta7M6tto2hTR4c6abiI0MY=",
+				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+				-81.446144&zoom=15&size=192x144&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=3ECXZgoeoWuB0d4y2yd6mgB4smk=",
 				"width":192
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-				-73.495155&zoom=16&size=384x288&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=ejAMC7VzdXXR2PCCbdpZilnc7Ok=",
+				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+				-81.446144&zoom=16&size=384x288&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=kWCKtgbKt5ogGIzz9MPXc9hfRXM=",
 				"width":384
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.084194,
-				-73.495155&zoom=17&size=768x576&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=UllhiL-JKdY1ZpbfkccRW_1Aoh8=",
+				"url":"https://maps.googleapis.com/maps/api/staticmap?center=41.31391,
+				-81.446144&zoom=17&size=768x576&maptype=roadmap&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&signature=XyzDYB1KloJC7ZVPvjcGoq6FKqU=",
 				"width":768
 			}
 		]
 	},
-	"streetAddress":"6 Nutmeg Ln",
+	"streetAddress":"2592 Burridge Cir",
 	"streetView":{
 		"addressSources":[
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&size=192x72&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=UfqlbKJE3bw9n2hdcZJr8O_ZTAM=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&size=192x72&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=CqVHfAitHMg62XWm-TIy-Ilxj3A=",
 				"width":192
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&size=384x144&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=dLHUW1zS1JgI1eD7zVp11wmoWew=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&size=384x144&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=qID_70DgohxiJxD5FkOnag2Btmc=",
 				"width":384
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&size=768x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=cOoZvxe97PFp_hrYN8x-FEN4YMI=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&size=768x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=BbuYrPqAJz-Zj2vX63k7Y2T583c=",
 				"width":768
 			}
 		],
 		"latLongSources":[
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.084194,
-				-73.495155&size=192x72&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=6hFcLX9buErwntb4ZaI5EUQBeyc=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.31391,
+				-81.446144&size=192x72&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=NYQSnSxr9dT3Dwohu2JPtkCXHgc=",
 				"width":192
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.084194,
-				-73.495155&size=384x144&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=ewOYoK_6d91b6EgXNPEsBffb2Q8=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.31391,
+				-81.446144&size=384x144&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=LKcvnR6KOngSdP9ZIh2pVH83sUs=",
 				"width":384
 			},
 			{
-				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.084194,
-				-73.495155&size=768x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=SdLDg1TvEqPYj-WA5s0IG-GYHNQ=",
+				"url":"https://maps.googleapis.com/maps/api/streetview?location=41.31391,
+				-81.446144&size=768x288&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=KzDGNDKo3rmJhze-2T83XNA33MY=",
 				"width":768
 			}
 		]
 	},
-	"streetViewMetadataUrlMapLightboxAddress":"https://maps.googleapis.com/maps/api/streetview/metadata?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&key=AIzaSyBV4lXhV-qzQOegyA3m0_AvGy9F21HIyOQ&source=outdoor&signature=6UeozjfPrdsMnx04deyn-v3CeS4=",
-	"streetViewMetadataUrlMediaWallAddress":"https://maps.googleapis.com/maps/api/streetview/metadata?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=g43UXPgqpDpx65aPJS7I3xuvhFc=",
-	"streetViewMetadataUrlMediaWallLatLong":"https://maps.googleapis.com/maps/api/streetview/metadata?location=41.084194,
-	-73.495155&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=ckVvOGp8g_y8i2Yk5zYC_SaM8Hg=",
-	"streetViewServiceUrl":"https://proxy.zillowapi.com/street-view-url?zpid=57283238&address=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&width=512&height=234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&maxdistance=313&lat=41.084194&lon=-73.495155&ttloverrides=%7B%22yesAddressSeconds%22:604800%7D&signature=rihdAXYfeAugAYt7Y7l6ZQ5Gwc8=",
-	"streetViewTileImageUrlMediumAddress":"https://maps.googleapis.com/maps/api/streetview?location=6%20Nutmeg%20Ln%2C%20Darien%2C%20CT%2006820&size=400x250&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=8GGAoMnrheWwozE2wHjuGTlhdUo=",
-	"streetViewTileImageUrlMediumLatLong":"https://maps.googleapis.com/maps/api/streetview?location=41.084194,
-	-73.495155&size=400x250&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=tlYM_7gKfnyifgPTesVJ6K5zd6M=",
-	"taxAssessedValue":1706530,
+	"streetViewMetadataUrlMapLightboxAddress":"https://maps.googleapis.com/maps/api/streetview/metadata?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&key=AIzaSyBV4lXhV-qzQOegyA3m0_AvGy9F21HIyOQ&source=outdoor&signature=9ajrLxwLexIH35-EQBPoAGSpXhs=",
+	"streetViewMetadataUrlMediaWallAddress":"https://maps.googleapis.com/maps/api/streetview/metadata?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=hlAuJLH_ytusYdUtHnVBVN66opE=",
+	"streetViewMetadataUrlMediaWallLatLong":"https://maps.googleapis.com/maps/api/streetview/metadata?location=41.31391,
+	-81.446144&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=dt0I1RXk29amLLpagqHti8XyFeQ=",
+	"streetViewServiceUrl":"https://proxy.zillowapi.com/street-view-url?zpid=35413966&address=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&width=512&height=234&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&maxdistance=59&lat=41.31391&lon=-81.446144&ttloverrides=%7B%22yesAddressSeconds%22:604800%7D&signature=DW1rCee80_0DoPLU5F4pMIpsS_Q=",
+	"streetViewTileImageUrlMediumAddress":"https://maps.googleapis.com/maps/api/streetview?location=2592%20Burridge%20Cir%2C%20Twinsburg%2C%20OH%2044087&size=400x250&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=NFJ70OGbeH16sc10sZgpEbcPzn8=",
+	"streetViewTileImageUrlMediumLatLong":"https://maps.googleapis.com/maps/api/streetview?location=41.31391,
+	-81.446144&size=400x250&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&signature=PabE-QDJy_0nokUdhV6olF26T0U=",
+	"taxAssessedValue":153420,
 	"taxAssessedYear":2021,
 	"taxHistory":[
 		{
-			"taxIncreaseRate_1":0.031218601,
-			"taxPaid_1":28738,
-			"time_3":1613945798069,
-			"value_1":1706530,
+			"taxIncreaseRate_1":0,
+			"taxPaid_1":2978.24,
+			"time_4":1613964948934,
+			"value_1":53697,
 			"valuIncreaseRate_1":0
 		},
 		{
-			"taxIncreaseRate_2":-0.00850322,
-			"taxPaid_2":27868,
-			"time_4":1582323398069,
-			"value_2":1706530,
-			"valuIncreaseRate_2":0
+			"taxIncreaseRate_2":0,
+			"taxPaid_2":null,
+			"time_5":1582342548934,
+			"value_2":53697,
+			"valuIncreaseRate_2":0.17419256
 		},
 		{
-			"taxIncreaseRate_3":0.078549504,
-			"taxPaid_3":28107,
-			"time_5":1550787398069,
-			"value_3":1706530,
-			"valuIncreaseRate_3":0.05299758
+			"taxIncreaseRate_3":0.045780167,
+			"taxPaid_3":2636.14,
+			"time_6":1550806548934,
+			"value_3":45731,
+			"valuIncreaseRate_3":2.1867483e-05
 		},
 		{
-			"taxIncreaseRate_4":-0.0049637267,
-			"taxPaid_4":26060,
-			"time_6":1519251398069,
-			"value_4":1620640,
+			"taxIncreaseRate_4":0.059998456,
+			"taxPaid_4":2520.74,
+			"time_7":1519270548934,
+			"value_4":45730,
 			"valuIncreaseRate_4":0
 		},
 		{
-			"taxIncreaseRate_5":0.024768164,
-			"taxPaid_5":26190,
-			"time_7":1487715398069,
-			"value_5":1620640,
+			"taxIncreaseRate_5":0,
+			"taxPaid_5":2378.06,
+			"time_8":1487734548934,
+			"value_5":45730,
 			"valuIncreaseRate_5":0
 		},
 		{
-			"taxIncreaseRate_6":0.027334485,
-			"taxPaid_6":25557,
-			"time_8":1456092998069,
-			"value_6":1620640,
+			"taxIncreaseRate_6":0,
+			"taxPaid_6":2378.06,
+			"time_9":1456112148934,
+			"value_6":45730,
 			"valuIncreaseRate_6":0
 		},
 		{
-			"taxIncreaseRate_7":0.022650661,
-			"taxPaid_7":24877,
-			"time_9":1424556998069,
-			"value_7":1620640,
+			"taxIncreaseRate_7":0.001988746,
+			"taxPaid_7":2378.06,
+			"time_10":1424576148934,
+			"value_7":45730,
 			"valuIncreaseRate_7":0
 		},
 		{
-			"taxIncreaseRate_8":0.07139397,
-			"taxPaid_8":24326,
-			"time_10":1393020998069,
-			"value_8":1620640,
-			"valuIncreaseRate_8":-0.059969954
+			"taxIncreaseRate_8":0.04579151,
+			"taxPaid_8":2373.34,
+			"time_11":1393040148934,
+			"value_8":45730,
+			"valuIncreaseRate_8":0.044779528
 		},
 		{
-			"taxIncreaseRate_9":0.038607568,
-			"taxPaid_9":22705,
-			"time_11":1361484998069,
-			"value_9":1724030,
+			"taxIncreaseRate_9":-0.009531911,
+			"taxPaid_9":2269.42,
+			"time_12":1361504148934,
+			"value_9":43770,
 			"valuIncreaseRate_9":0
 		},
 		{
-			"taxIncreaseRate_10":0.03936671,
-			"taxPaid_10":21861,
-			"time_12":1329862598069,
-			"value_10":1724030,
-			"valuIncreaseRate_10":0
+			"taxIncreaseRate_10":0.09443242,
+			"taxPaid_10":2291.26,
+			"time_13":1329881748934,
+			"value_10":43770,
+			"valuIncreaseRate_10":-2.2846176e-05
 		},
 		{
-			"taxIncreaseRate_11":0.039179843,
-			"taxPaid_11":21033,
-			"time_13":1298326598069,
-			"value_11":1724030,
-			"valuIncreaseRate_11":0
+			"taxIncreaseRate_11":-0.07220092,
+			"taxPaid_11":2093.56,
+			"time_14":1298345748934,
+			"value_11":43771,
+			"valuIncreaseRate_11":-0.11718199
 		},
 		{
-			"taxIncreaseRate_12":0.032547697,
-			"taxPaid_12":20240,
-			"time_14":1266790598069,
-			"value_12":1724030,
+			"taxIncreaseRate_12":0,
+			"taxPaid_12":2256.48,
+			"time_15":1266809748934,
+			"value_12":49581,
 			"valuIncreaseRate_12":0
 		},
 		{
-			"taxIncreaseRate_13":-0.10822984,
-			"taxPaid_13":19602,
-			"time_15":1235254598069,
-			"value_13":1724030,
-			"valuIncreaseRate_13":0.14118247
+			"taxIncreaseRate_13":0,
+			"taxPaid_13":null,
+			"time_16":1235273748934,
+			"value_13":49581,
+			"valuIncreaseRate_13":-0.06267015
 		},
 		{
-			"taxIncreaseRate_14":0.04901212,
-			"taxPaid_14":21981,
-			"time_16":1203632198069,
-			"value_14":1510740,
-			"valuIncreaseRate_14":0
+			"taxIncreaseRate_14":0.09053394,
+			"taxPaid_14":2441.88,
+			"time_17":1203651348934,
+			"value_14":52896,
+			"valuIncreaseRate_14":0.04039967
 		},
 		{
-			"taxIncreaseRate_15":0.03507212,
-			"taxPaid_15":20954,
-			"time_17":1172096198069,
-			"value_15":1510740,
+			"taxIncreaseRate_15":0.090252146,
+			"taxPaid_15":2239.16,
+			"time_18":1172115348934,
+			"value_15":50842,
 			"valuIncreaseRate_15":0
 		},
 		{
-			"taxIncreaseRate_16":-0.27957296,
-			"taxPaid_16":20244,
-			"time_18":1140560198069,
-			"value_16":1510740,
-			"valuIncreaseRate_16":-0.3
+			"taxIncreaseRate_16":-0.07596365,
+			"taxPaid_16":2053.8,
+			"time_19":1140579348934,
+			"value_16":50842,
+			"valuIncreaseRate_16":0
 		},
 		{
-			"taxIncreaseRate_17":0.556528,
-			"taxPaid_17":28100,
-			"time_19":1109024198069,
-			"value_17":2158200,
-			"valuIncreaseRate_17":0.42857143
+			"taxIncreaseRate_17":0,
+			"taxPaid_17":2222.64,
+			"time_20":1109043348934,
+			"value_17":50842,
+			"valuIncreaseRate_17":0.06261756
 		},
 		{
-			"taxIncreaseRate_18":0.60671055,
-			"taxPaid_18":18053,
-			"time_20":1077401798069,
-			"value_18":1510740,
-			"valuIncreaseRate_18":0.75606185
+			"taxIncreaseRate_18":0,
+			"taxPaid_18":null,
+			"time_21":1077420948934,
+			"value_18":47846,
+			"valuIncreaseRate_18":0
 		},
 		{
-			"taxIncreaseRate_19":0.59920293,
-			"taxPaid_19":11236,
-			"time_21":1045865798069,
-			"value_19":860300,
-			"valuIncreaseRate_19":0.7167202
+			"taxIncreaseRate_19":0.01329119,
+			"taxPaid_19":1983.7,
+			"time_22":1045884948934,
+			"value_19":47846,
+			"valuIncreaseRate_19":0
 		},
 		{
-			"taxIncreaseRate_20":0.073491216,
-			"taxPaid_20":7026,
-			"time_22":982793798069,
-			"value_20":501130,
-			"valuIncreaseRate_20":-0.3
+			"taxIncreaseRate_20":-0.37132946,
+			"taxPaid_20":1957.68,
+			"time_23":1014348948934,
+			"value_20":47846,
+			"valuIncreaseRate_20":0.0019265402
 		},
 		{
-			"taxIncreaseRate_21":-0.04340836,
-			"taxPaid_21":6545,
-			"time_23":951171398069,
-			"value_21":715900,
-			"valuIncreaseRate_21":0.8540868
+			"taxIncreaseRate_21":0.72700655,
+			"taxPaid_21":3114,
+			"time_24":982812948934,
+			"value_21":47754,
+			"valuIncreaseRate_21":0
 		},
 		{
 			"taxIncreaseRate_22":0,
-			"taxPaid_22":6842,
-			"time_24":919635398069,
-			"value_22":386120,
+			"taxPaid_22":1803.12,
+			"time_25":951190548934,
+			"value_22":47754,
 			"valuIncreaseRate_22":0
 		}
 	],
@@ -1818,12 +1935,12 @@
 	},
 	"thumb":[
 		{
-			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=46x46&zoom=17&center=41.08419418334961,
-			-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=jga-dtIMCI0smtt6uKpKeufLfW4="
+			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=46x46&zoom=17&center=41.31391143798828,
+			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=VGztQbldKzJx8CCu6efJGobLHvk="
 		}
 	],
-	"time_25OnZillow":"7858 days",
-	"time_26Zone":"America/New_York",
+	"time_26OnZillow":"663 days",
+	"time_27Zone":"America/New_York",
 	"topNavJson":{
 		"core":{
 			"js":"https://s.zillowstatic.com/s3/pfs/core-8903757f0f5bf45f32b8.js"
@@ -1877,39 +1994,39 @@
 										[
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/",
+												"href":"/twinsburg-oh/",
 												"text":"Homes for sale"
 											},
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/foreclosures/",
+												"href":"/twinsburg-oh/foreclosures/",
 												"text":"Foreclosures"
 											},
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/fsbo/",
+												"href":"/twinsburg-oh/fsbo/",
 												"text":"For sale by owner"
 											},
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/open-house/",
+												"href":"/twinsburg-oh/open-house/",
 												"text":"Open houses"
 											}
 										],
 										[
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/new-homes/",
+												"href":"/twinsburg-oh/new-homes/",
 												"text":"New construction"
 											},
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/coming-soon/",
+												"href":"/twinsburg-oh/coming-soon/",
 												"text":"Coming soon"
 											},
 											{
 												"classString":"noroute",
-												"href":"/darien-ct/sold/",
+												"href":"/twinsburg-oh/sold/",
 												"text":"Recent home sales"
 											},
 											{
@@ -1918,7 +2035,7 @@
 											}
 										]
 									],
-									"title":"Darien homes for sale"
+									"title":"Twinsburg homes for sale"
 								},
 								{
 									"links":[
@@ -1974,22 +2091,22 @@
 									"links":[
 										{
 											"classString":"noroute",
-											"href":"/darien-ct/rental-buildings/",
+											"href":"/twinsburg-oh/rental-buildings/",
 											"text":"Rental buildings"
 										},
 										{
 											"classString":"noroute",
-											"href":"/darien-ct/apartments/",
+											"href":"/twinsburg-oh/apartments/",
 											"text":"Apartments for rent"
 										},
 										{
 											"classString":"noroute",
-											"href":"/darien-ct/rent-houses/",
+											"href":"/twinsburg-oh/rent-houses/",
 											"text":"Houses for rent"
 										},
 										{
 											"classString":"noroute",
-											"href":"/darien-ct/rentals/",
+											"href":"/twinsburg-oh/rentals/",
 											"text":"All rental listings"
 										},
 										{
@@ -1997,7 +2114,7 @@
 											"text":"All rental buildings"
 										}
 									],
-									"title":"Darien rentals"
+									"title":"Twinsburg rentals"
 								},
 								{
 									"links":[
@@ -2064,8 +2181,8 @@
 											"text":"See your home's Zestimate"
 										},
 										{
-											"href":"/home-value_23s/11043/darien-ct/",
-											"text":"Darien Home value_24s"
+											"href":"/home-value_23s/7510/twinsburg-oh/",
+											"text":"Twinsburg Home value_24s"
 										},
 										{
 											"href":"/sellers-guide/",
@@ -2077,7 +2194,7 @@
 								{
 									"links":[
 										{
-											"href":"/professionals/real-estate-agent-reviews/darien-ct/?service=Selling",
+											"href":"/professionals/real-estate-agent-reviews/twinsburg-oh/?service=Selling",
 											"text":"Find a seller's agent"
 										},
 										{
@@ -2106,11 +2223,11 @@
 											"text":"HELOC lenders"
 										},
 										{
-											"href":"/mortgage-rates/ct/darien/",
+											"href":"/mortgage-rates/oh/twinsburg/",
 											"text":"Mortgage rates"
 										},
 										{
-											"href":"/refinance/ct/darien/",
+											"href":"/refinance/oh/twinsburg/",
 											"text":"Refinance rates"
 										},
 										{
@@ -2170,7 +2287,7 @@
 						},
 						{
 							"link":{
-								"href":"/professionals/real-estate-agent-reviews/darien-ct/",
+								"href":"/professionals/real-estate-agent-reviews/twinsburg-oh/",
 								"text":"Agent finder"
 							},
 							"subsections":[
@@ -2178,33 +2295,33 @@
 									"links":[
 										[
 											{
-												"href":"/professionals/real-estate-agent-reviews/darien-ct/",
+												"href":"/professionals/real-estate-agent-reviews/twinsburg-oh/",
 												"text":"Real estate agents"
 											},
 											{
-												"href":"/professionals/property-manager-reviews/darien-ct/",
+												"href":"/professionals/property-manager-reviews/twinsburg-oh/",
 												"text":"Property managers"
 											},
 											{
-												"href":"/professionals/home-inspector-reviews/darien-ct/",
+												"href":"/professionals/home-inspector-reviews/twinsburg-oh/",
 												"text":"Home inspectors"
 											},
 											{
-												"href":"/professionals/real-estate-services-reviews/darien-ct/",
+												"href":"/professionals/real-estate-services-reviews/twinsburg-oh/",
 												"text":"Other pros"
 											}
 										],
 										[
 											{
-												"href":"/professionals/home-improvement-reviews/darien-ct/",
+												"href":"/professionals/home-improvement-reviews/twinsburg-oh/",
 												"text":"Home improvement pros"
 											},
 											{
-												"href":"/home-builders/darien-ct/11043/",
+												"href":"/home-builders/twinsburg-oh/7510/",
 												"text":"Home builders"
 											},
 											{
-												"href":"/professionals/photographer-reviews/darien-ct/",
+												"href":"/professionals/photographer-reviews/twinsburg-oh/",
 												"text":"Real estate photographers"
 											}
 										]
@@ -2427,8 +2544,8 @@
 	},
 	"tourPhotos":[
 		{
-			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.08419418334961,
-			-73.49515533447266&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=QdiGt8mn0Ri27nIItctWzG5xY4Y="
+			"url":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=400x300&zoom=17&center=41.31391143798828,
+			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=kPSDdzizMmye6ZE3Hph7-ujUzXE="
 		}
 	],
 	"tourViewCount":0,
@@ -2440,23 +2557,23 @@
 		"vrModelGuid":null
 	},
 	"whatILove":null,
-	"yearBuilt":2001,
-	"HouseZestimate":2803500,
+	"yearBuilt":1994,
+	"HouseZestimate":216600,
 	"zestimateDeepDiveData":{
 		"zmaModel":null
 	},
-	"zestimateHighPercent":"11",
-	"zestimateLowPercent":"10",
+	"zestimateHighPercent":"5",
+	"zestimateLowPercent":"5",
 	"zillowOfferMarket":{
 		"code":null
 	},
-	"zipPlusFour":"3321",
-	"zipcode":"06820",
+	"zipPlusFour":"1791",
+	"zipcode":"44087",
 	"zipcodeSearchUrl":{
-		"path":"/darien-ct-06820/"
+		"path":"/twinsburg-oh-44087/"
 	},
 	"zoContactSubtitle":null,
 	"zoMarketName":null,
 	"zoResaleStartAnOfferEnabled":false,
-	"zpid":57283238
+	"zpid":35413966
 }
