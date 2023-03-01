@@ -3,17 +3,18 @@ import pandas as pd
 import webbrowser
 import numpy as np
 from sklearn.linear_model import LinearRegression
+from house import House
+
+
 
 file = open('housedata.txt', 'r')
 read = file.readlines()
-
 file_path = "housedata.txt"
+with open(file_path, 'r') as file:
+        contents = file.read()
 
 def pr(needed_values):
     print(f"******************\n", (needed_values), "\n******************")
-
-with open(file_path, 'r') as file:
-        contents = file.read()
 
 def tabulate_string(text):
     indent_level = 0
@@ -39,13 +40,9 @@ def tabulate_string(text):
 
 tabulated_data= tabulate_string(contents) 
 
-##pr(tabulated_data)
-
 text_file = open("housedata_tabed.txt", "w")
 n = text_file.write(tabulated_data)
 text_file.close()
-
-
 
 def correction_value_error(filename, word, newword):
     with open(filename, 'r') as file:
@@ -80,7 +77,7 @@ increment_word_count("housedata_tabed.txt", "value")
 increment_word_count("housedata_tabed.txt", "valuIncreaseRate")
 
 
-def find_value_after_word(word, endchar):
+def find_value(word, endchar):
 
     with open("housedata_tabed.txt", 'r') as file:
             string = file.read()
@@ -100,29 +97,29 @@ def find_value_after_word(word, endchar):
 
 ######## Section for Miscellaneous Info ############
 
-city_address = find_value_after_word("city",',').strip().strip("\"")
-state_address =  find_value_after_word("state",',').strip().strip("\"")
-streetAddress =  find_value_after_word("streetAddress",',').strip().strip("\"")
-zipCode =  find_value_after_word("zipcode",',').strip().strip("\"\}")
-county = find_value_after_word("county",',').strip().strip("\"")
-country = find_value_after_word("country",',').strip().strip("\"")
-description_full = find_value_after_word("description",'\",').strip().strip("\"").split('\n')
-description_full = ' '.join(description_full).replace('\t', '').replace(", ",",")
+description_full = find_value("description",'\",').strip().strip("\"").split('\n')
+target_house = House(house_sqft= float(find_value("livingArea",',').strip().strip("\"")),
+                     lotSize_sqft= float(find_value("lotSize",',').strip().strip("\"")),
+                     city_address=find_value("city",',').strip().strip("\""),
+                     state_address=find_value("state",',').strip().strip("\""),
+                     streetAddress=find_value("streetAddress",',').strip().strip("\""),
+                     zipCode=find_value("zipcode",',').strip().strip("\"\}"), 
+                     county=find_value("county",',').strip().strip("\""), 
+                     country=find_value("country",',').strip().strip("\""), 
+                     description_full=' '.join(description_full).replace('\t', '').replace(", ",","))
 
-full_address = streetAddress + ", " + city_address + ", " + county +" "+ zipCode +" " + country
-
-##use this for $/sqft 
-house_sqft = float(find_value_after_word("livingArea",',').strip().strip("\""))
-lotSize_sqft = float(find_value_after_word("lotSize",',').strip().strip("\""))
-
-
-######## Section for Home Price Values ############
-monthly_HoaFee = float(find_value_after_word("monthlyHoaFee",','))
-lastSoldPrice = float(find_value_after_word("lastSoldPrice",',').strip().strip("\""))
-monthly_rentZestimate = float(find_value_after_word("rentZestimate",',').strip().strip("\""))
-zestimateHouse = float(find_value_after_word("HouseZestimate",','))
 
 ##print(zestimateHouse)
+
+target_house.house_sqft= float(find_value("livingArea",',').strip().strip("\""))
+target_house.lotSize_sqft= float(find_value("lotSize",',').strip().strip("\""))
+
+
+target_house.financial.monthly_HoaFee = float(find_value("monthlyHoaFee",','))
+target_house.financial.lastSoldPrice = float(find_value("lastSoldPrice",',').strip().strip("\""))
+target_house.financial.monthly_rentZestimate = float(find_value("rentZestimate",',').strip().strip("\""))
+target_house.financial.zestimateHouse = float(find_value("HouseZestimate",','))
+
 
 ######## Section for Taxes ############
 tax_values= []
@@ -131,7 +128,7 @@ taxpaid = []
 taxIncrease = []
 comparable_years= []
 comparable_years2 = []
-year_start_tax = float(find_value_after_word("taxAssessedYear",","))
+year_start_tax = float(find_value("taxAssessedYear",","))
 i1 =0
 while i1 <=21:
     comparable_years.append(year_start_tax - i1)
@@ -146,13 +143,15 @@ else:
     debug =1
 i2=0
 while i2<=21:
-    tax_values.append(float(find_value_after_word("value_"+str(i2+1),",")))
-    valuIncreaseRates.append(float(find_value_after_word("valuIncreaseRate_"+str(i2+1),"}")))
-    taxpaid.append(float(find_value_after_word("taxPaid_"+str(i2+1),",")))
-    taxIncrease.append(float(find_value_after_word("taxIncreaseRate_"+str(i2+1),",")))
+    tax_values.append(float(find_value("value_"+str(i2+1),",")))
+    valuIncreaseRates.append(float(find_value("valuIncreaseRate_"+str(i2+1),"}")))
+    taxpaid.append(float(find_value("taxPaid_"+str(i2+1),",")))
+    taxIncrease.append(float(find_value("taxIncreaseRate_"+str(i2+1),",")))
     i2+=1
 else:
     debug=4
+
+
 
 def predic_value(past_array, amount_to_predict):
     # Example input data
@@ -229,75 +228,56 @@ table_TaxValue_html = df_html_table_TaxValue.to_html(classes='table table-stripp
 
 html_TaxRate_tb = df_html_table_TaxRate.to_html(classes='table table-stripped')
 
-######## Section for Analytics ############
 
-""" Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
-where:
+choice = ''"""
+while choice != '0' and choice != '1':
+    choice = input("Do you have the monthly interest rate or the yearly? (0 for monthly, 1 for yearly): ")
+    if choice == 0:
+        princible_rate = (input("What is the interest rate?") or 6)
+        target_house.financial.princible_rate= float(princible_rate/(12/100))
+        
+    else:
+        princible_rate = (input("What is the interest rate?") or 6)
+        target_house.financial.princible_rate= float(princible_rate/(100))
 
-P is the principal (the amount of the loan)
-r is the monthly interest rate (annual interest rate divided by 12)
-n is the total number of payments (the number of years of the loan multiplied by 12)
-Note that this equation assumes a fixed-rate mortgage. If you have an adjustable-rate mortgage, the mortgage payment may change over time."""
+target_house.financial.initialpayment_Percent= float(input("How much (%) of the total value do you plan on puting down?") or 20)/100, 
+target_house.financial.numOfPayments = float(input("What is total amount of payments?") or 360)
 
-option_1 = input("Do you have the monthly interest rate or the yearly? (0 for monthly, 1 for yearly)") or 1
-if option_1 == 0:
-    princible_rate = float(input("What is the interest rate?") or 6)
-    princible_rate = princible_rate/(12/100)
-elif option_1 == 1:
-    princible_rate = float(input("What is the interest rate?") or 6)
-    princible_rate = princible_rate/(100)
-else:
-    print("that is not a correct option")
+target_house.financial.princible_loan_zest =  target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)
 
+target_house.financial.initialpayment_Percent = float(input("How much (%) of the total value do you plan on puting down?") or 20)/100
+target_house.financial.numOfPayments = float(input("What is total amount of payments?") or 360)
 
-initialpayment_Percent = int(input("How much (%) of the total value do you plan on puting down?") or 20)/100 
-princible_loan_zest = float(zestimateHouse) * (1-initialpayment_Percent) 
-numOfPayments = int(input("What is total amount of payments?") or 360) 
+target_house.financial.princible_loan_zest = target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)"""
+##target_house.financial.princible_loan_zest = float((target_house.financial.zestimateHouse) * (1.0-(target_house.financial.initialpayment_Percent))) 
 
-##print("princible" + princible_loan_zest)
-print("princible_rate: " + str(princible_rate) +"\tinicialpayment%: " + str(initialpayment_Percent)+"\princible_loan_zest: " + str(princible_loan_zest)+ "\t# of payments: " + str(numOfPayments))
+while choice != '0' and choice != '1':
+    choice = input("Do you have the monthly interest rate or the yearly? (0 for monthly, 1 for yearly): ")
+    if choice == '0':
+        target_house.financial.princible_rate = (input("What is the interest rate?") or 6)
+        target_house.financial.princible_rate = float(target_house.financial.princible_rate/(12/100))
+        
+    else:
+        target_house.financial.princible_rate = (input("What is the interest rate?") or 6)
+        target_house.financial.princible_rate = float(target_house.financial.princible_rate/(100))
 
-mortgage_payment_zest = (princible_loan_zest * initialpayment_Percent * princible_rate * (1 + princible_rate) ** numOfPayments)/((1 + princible_rate) ** (360-1))
+target_house.financial.initialpayment_Percent = float(input("How much (%) of the total value do you plan on puting down?") or 20)/100
+target_house.financial.numOfPayments = float(input("What is total amount of payments?") or 360)
 
-pr(mortgage_payment_zest)
-
-
+target_house.financial.princible_loan_zest = target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)
 """
-Break-even point = Total cost of owning the property / Rental income per year
-"""
-breakEvenPoint = round(zestimateHouse/monthly_rentZestimate, 2)
-print("zestimateHouse: "+ str(zestimateHouse)+ "\tmonthly_rentZestimate: "+ str(monthly_rentZestimate)+ "\nBreak Even Point: "+ str(breakEvenPoint))
-
-"""
-The cap rate is found by dividing the property's net operating expenses by its purchase price. You can find the cap rate by doing the following: 
-
-Find your gross income by taking the average monthly rent for your property and multiplying it by 11.5. This will show the maximum amount you can make from the property, allowing for a two-week per year vacancy.
-
-Then, subtract your monthly operating expenses ( utilities, taxes, maintenance) from your gross income to get your net income.
-
-Divide your net income by the purchase price to find your cap rate.
-
-Multiply the cap rate by 100 to find the percentage of your potential returns on the property.
-
-
+================================================================================================================
+================================================================================================================
+================================================================================================================
+================================================================================================================
 """
 
-html_header_info_1 = "This report was run for: "+full_address 
-html_header_info_2 = description_full
-html_header_info_3 =" Additional calculations:\n" +" Princible Interest Rate: " + \
-    str(princible_rate) +" Initial Loan Payment: " + str(initialpayment_Percent)+" Princible Loan Amount for Zestimate: " + str(princible_loan_zest) + \
-        " # of payments: " + str(numOfPayments)
-html_header_info_4 = " Breakeven Point: "+ str(breakEvenPoint) +" Morgage Payment bases on Zesimate: "+ str(mortgage_payment_zest)
-"""
 
-Section for table of PRoperty calculator
-
-"""
 
 house_prop_data = []
 expenses_per_month=200
 
-total_rent_income = monthly_rentZestimate *12
+total_rent_income = target_house.financial.monthly_rentZestimate*12
 total_expenses = expenses_per_month *12
 net_income = total_rent_income-total_expenses
 
@@ -305,8 +285,9 @@ net_income = total_rent_income-total_expenses
 accumulated_total_income = total_rent_income
 accumulated_total_expense = total_expenses
 accumulated_net_income = net_income
-
-total_roi = ((zestimateHouse+ princible_loan_zest) +net_income)/(zestimateHouse+ princible_loan_zest)
+print(str(target_house.financial.zestimateHouse) + "     "+str(target_house.financial.princible_loan_zest))
+##total_roi = ((zestimateHouse+ princible_loan_zest) +net_income)/(zestimateHouse+ princible_loan_zest)
+total_roi = ((target_house.financial.zestimateHouse + target_house.financial.princible_loan_zest) +net_income)/(target_house.financial.zestimateHouse + target_house.financial.princible_loan_zest)
 
 house_prop_data.append({
         "Year": int(year_start_tax)+2,
@@ -320,13 +301,14 @@ house_prop_data.append({
     })
 
 
-for year in range(int(year_start_tax+3),(int(year_start_tax)+23)):
+for year in range(int(year_start_tax),(int(year_start_tax)+10)):
 
     total_rent_income *= 1.03
     total_expenses *= 1.03
     net_income *= 1.03
 
-    total_roi = ((zestimateHouse+ princible_loan_zest) +net_income)/(zestimateHouse+ princible_loan_zest)
+    total_roi = ((target_house.financial.zestimateHouse + target_house.financial.princible_loan_zest) +net_income)/ \
+        (target_house.financial.zestimateHouse + target_house.financial.princible_loan_zest)
 
     accumulated_total_income += total_rent_income
     accumulated_total_expense += total_expenses
@@ -381,24 +363,24 @@ full_html = """
 			background-color: red;
 			font-weight: bold;
 		}
-	</style>
+	</style>""" +f"""
 </head>
 <body>
-	<h1>"""  +f"""</h1>
-	<h1>This report was run for the Address: {streetAddress}, {city_address} {state_address}</h1>
-	<p>Description: {description_full}.<br><br>
-    Monthly Rent Estimate: <span class="highlight">{monthly_rentZestimate}</span>.<br><br>
-    Princible Loan from Zestimate: <span class="highlight">{princible_loan_zest}</span>&emsp;Last Sold Price: <span class="highlight">{lastSoldPrice}</span>&emsp;<br>Zillow's Estimate on House Cost: <span style="color: blue;">{zestimateHouse}</span><br>House Sqft: <span style="color: blue;">{house_sqft}</span><br>Zestimate Price/Sqft: <span class="highlight">{round(zestimateHouse/house_sqft,2)} sqft</span>
+	<br>
+	<h3>This report was run for the Address: {target_house.location.full_address}</h3>
+	<p>Description: {target_house.location.description_full}.</p><br><br>
+    <h4>Monthly Rent Estimate: <span class="highlight">{target_house.financial.monthly_rentZestimate}</span>.<br><br>
+    Princible Loan from Zestimate: <span class="highlight">{target_house.financial.princible_loan_zest}</span>&emsp;Last Sold Price: <span class="highlight">{target_house.financial.lastSoldPrice}</span>&emsp;<br>Zillow's Estimate on House Cost: <span style="color: blue;">{target_house.financial.zestimateHouse}</span><br>House Sqft: <span style="color: blue;">{target_house.house_sqft}</span><br>Zestimate Price/Sqft: <span style="color: blue;">{target_house.financial.zestimateHouse/target_house.house_sqft}</span></h4>
     <br><br>
-    Monthyl HOA Fee: <span class="highlight">{monthly_HoaFee}</span>
+    Monthyl HOA Fee: <span class="highlight">{target_house.financial.monthly_HoaFee}</span>
     <br><br>
     Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
     &emsp;P is the principal (the amount of the loan)
     &emsp;r is the monthly interest rate (annual interest rate divided by 12)
     &emsp;n is the total number of payments (the number of years of the loan multiplied by 12)
-    <br>Morgage Payment Estimate: <span style="color: blue;">{mortgage_payment_zest}</span>
+    <br>Morgage Payment Estimate: <span style="color: blue;">{target_house.financial.mortgage_payment_zest}</span>
     <br><br>Break-even point = Total cost of owning the property / Rental income per year
-    <br>BreakEven Point: <span style="color: blue;">{breakEvenPoint}</span>
+    <br>BreakEven Point: <span style="color: blue;">{target_house.financial.breakevenpoint}</span>
     </p>
    
     <div class="img-container">
@@ -417,6 +399,8 @@ full_html = """
 </body>
 </html>
 """
+
+##full_html = f"""<h1>My House</h1><ul><li>Cost: """+{target_house.financial.breakevenpoint}+"""</li><li>Color: {target_house.location.full_address}</li></ul>"
 
 # Save the HTML code to a file
 with open('result.html', 'w') as f:
