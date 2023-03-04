@@ -4,7 +4,7 @@ import requests
 """
 pull api key info from c drive txt file
 """
-api_file_path =open(r"C:/Users/Tyler/Desktop/ZillowAPIKey.txt").read()
+api_file_path =open(r"ZillowAPIKey.txt").read()
 
 url = "https://zillow56.p.rapidapi.com/property"
 
