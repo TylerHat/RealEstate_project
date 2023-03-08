@@ -17,8 +17,21 @@ headers = {
 
 response = requests.request("GET", url, headers=headers, params=querystring)
 
-##print(response.text)
 
 text_file = open("housedata.txt", "w")
+n = text_file.write(response.text)
+text_file.close()
+
+
+url = "https://u-s-economic-indicators.p.rapidapi.com/api/v1/resources/prime-rate-daily"
+
+headers = {
+	"X-RapidAPI-Key": api_file_path,
+	"X-RapidAPI-Host": "u-s-economic-indicators.p.rapidapi.com"
+}
+
+response = requests.request("GET", url, headers=headers)
+
+text_file = open("interest_rates.txt", "w")
 n = text_file.write(response.text)
 text_file.close()

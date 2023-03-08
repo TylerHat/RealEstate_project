@@ -45,3 +45,12 @@ def breakevenpoint(zestimateHouse, monthly_rentZestimate):
     except:
         return 0
     
+def current_interest_rate():
+    with open('interest_rates.txt', 'r') as file:
+        lines = file.readlines()
+
+    if len(lines) >= 2:
+        second_last_line = lines[-4]
+        print("The second to last line is:", second_last_line)
+    else:
+        print("The file does not have enough lines.")

@@ -110,14 +110,14 @@
 	"datePriceChanged":null,
 	"dateSold":1619740800000,
 	"dateSoldString":"2021-04-30",
-	"daysOnZillow":663,
+	"daysOnZillow":675,
 	"description":"2592 Burridge Cir,
 	 Twinsburg,
 	 OH 44087 is a condo home that contains 1,
 	596 sq ft and was built in 1994. It contains 3 bedrooms and 2 bathrooms. This home last sold for $190,
-	000 in April 2021. \n \nThe Zestimate for this house is $216,
-	600. The Rent Zestimate for this home is $2,
-	129/mo. ",
+	000 in April 2021. \n \nThe Zestimate for this house is $218,
+	300. The Rent Zestimate for this home is $1,
+	714/mo. ",
 	"desktopWebHdpImageLink":"https://maps.googleapis.com/maps/api/staticmap?mobile=false&sensor=true&maptype=satellite&size=550x413&zoom=17&center=41.31391143798828,
 	-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=Fe7zduEkeWS5yBuEBzTyNKgtumw=",
 	"downPaymentAssistance":{
@@ -353,9 +353,9 @@
 	"mlsid":null,
 	"monthlyHoaFee":251,
 	"mortgageRates":{
-		"arm5Rate":6.948,
-		"fifteenYearFixedRate":6.33,
-		"thirtyYearFixedRate":6.671
+		"arm5Rate":7.125,
+		"fifteenYearFixedRate":6.519,
+		"thirtyYearFixedRate":6.834
 	},
 	"moveHomeMapLocationLink":null,
 	"moveInCompletionDate":null,
@@ -482,7 +482,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":241100,
+			"price":242900,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35413965
@@ -536,7 +536,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":221800,
+			"price":220600,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":2144057779
@@ -645,7 +645,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":199600,
+			"price":200500,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35414025
@@ -700,7 +700,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":194600,
+			"price":196400,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35414024
@@ -755,7 +755,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":204300,
+			"price":206200,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35413967
@@ -810,7 +810,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":211500,
+			"price":213100,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35413963
@@ -865,7 +865,7 @@
 				}
 			],
 			"newConstructionType":null,
-			"price":193100,
+			"price":195300,
 			"providerListingID":null,
 			"state":"OH",
 			"zpid":35413968
@@ -890,7 +890,7 @@
 		"decisionContext":{
 			
 		},
-		"eventId":"c86917a7-a54b-49fd-b198-f6dd43ae5d4c",
+		"eventId":"b761d5db-3acb-4dfb-aa9f-c2b1adec1a8e",
 		"messages":[
 			{
 				"bucket":"BASELINE_TREATMENT",
@@ -898,7 +898,7 @@
 					"city":"Twinsburg",
 					"countyId":"1404",
 					"displayCategory":"none",
-					"guid":"c442dc9d-03a7-4a59-83e2-48f240726797",
+					"guid":"e446bad0-587b-48b3-906b-e149efe4f14a",
 					"hasUserClaimedHome":false,
 					"homeStatus":"recentlySold",
 					"homeType":"CONDO",
@@ -915,10 +915,11 @@
 					"stateId":"44",
 					"streetAddress":"2592 Burridge Cir",
 					"surfaceId":"fshdp",
+					"HouseZestimate":"218300",
 					"zipcode":"44087",
 					"zoMarketCode":"OZM"
 				},
-				"eventId":"074309ad-e6f5-4e71-a44b-b41f55667888",
+				"eventId":"4ce4bc61-c4d4-42d6-a351-e54b5a53d00d",
 				"isGlobalHoldout":false,
 				"lastModified":"1676890847",
 				"passThrottle":true,
@@ -944,16 +945,16 @@
 						"status":"PORTFOLIO"
 					},
 					{
-						"id":3715,
-						"lastModified":"1674493298",
-						"name":"zhl_purchase_fshdp_top_pre-qual-affordabilty-hybrid",
-						"status":"BASELINE_EVALUATION"
-					},
-					{
 						"id":3074,
 						"lastModified":"1668425522",
 						"name":"zhl_purchase_fshdp_top_pre-qual-v2",
 						"status":"PORTFOLIO"
+					},
+					{
+						"id":3715,
+						"lastModified":"1674493298",
+						"name":"zhl_purchase_fshdp_top_pre-qual-affordabilty-hybrid",
+						"status":"BASELINE_EVALUATION"
 					},
 					{
 						"id":3720,
@@ -964,16 +965,16 @@
 				],
 				"selectedTreatment":{
 					"component":"UpsellWrapper",
-					"id":3713,
-					"lastModified":"1674493417",
-					"name":"zhl_purchase_fshdp_top_pre-qual-v3",
+					"id":3720,
+					"lastModified":"1674493355",
+					"name":"zhl_purchase_fshdp_top_pre-qual-no-impact-to-credit",
 					"renderingProps":"{
-						\"actionLink\":\"https://www.zillowhomeloans.com/pre-qualify/?&source=Zillow&channel=FSHDP&utm_source=OMP&utm_medium=OMP&utm_campaign=zhl_purchase_fshdp_top_pre-qual-v3&propertyValue=190000&propertyType=CondoFourOrFewerStories&cityOrZip=44087\",
+						\"actionLink\":\"https://www.zillowhomeloans.com/pre-qualify/?&source=Zillow&channel=FSHDP&utm_source=OMP&utm_medium=OMP&utm_campaign=zhl_purchase_fshdp_top_pre-qual-no-impact-to-credit&propertyValue=190000&propertyType=CondoFourOrFewerStories&cityOrZip=44087\",
 						\"actionText\":\"Start now\",
 						\"actionType\":\"url_link\",
 						\"background\":\"backgroundBlue\",
 						\"bodyMarkdownText\":\"At Zillow Home Loans,
-						 we can pre-qualify you in as little as 3 minutes with no impact to your credit score. <p class=\\\"zg-mls-note\\\">An equal housing lender. NMLS #10287.</p><style> div[
+						 we can pre-qualify you with no impact to your credit score. <p class=\\\"zg-mls-note\\\">An equal housing lender. NMLS #10287.</p><style> div[
 							class*=Upsell-
 						] .zg-mls-note{
 							 font-size: 10px; font-weight: 400; position: absolute; right: 4px; bottom: 0; margin-bottom: -4px; color: grey; 
@@ -986,13 +987,13 @@
 						\"tagInput\":\"Zillow Home Loans\",
 						\"gaImpressionCategory\":\"Homes\",
 						\"gaImpressionAction\":\"ZHL Purchase Upsell\",
-						\"gaImpressionLabel\":\"Display|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\",
+						\"gaImpressionLabel\":\"Display|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-no-impact-to-credit|omp\",
 						\"gaEngagementCategory\":\"Homes\",
 						\"gaEngagementAction\":\"ZHL Purchase Upsell\",
-						\"gaEngagementLabel\":\"Click|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\",
+						\"gaEngagementLabel\":\"Click|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-no-impact-to-credit|omp\",
 						\"gaHoverCategory\":\"Homes\",
 						\"gaHoverAction\":\"ZHL Purchase Upsell\",
-						\"gaHoverLabel\":\"Hover|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-v3|omp\"
+						\"gaHoverLabel\":\"Hover|fshdp|wow-top|zhl-purchase|zhl-get-pre-qualified-no-impact-to-credit|omp\"
 					}",
 					"status":"BASELINE_EVALUATION"
 				},
@@ -1179,7 +1180,7 @@
 	"propertyUpdatePageLink":null,
 	"providerListingID":null,
 	"regionString":"Twinsburg OH 44087",
-	"rentZestimate":2129,
+	"rentZestimate":1714,
 	"rentalApplicationsAcceptedType":"REQUEST_TO_APPLY",
 	"resoFacts":{
 		"aboveGradeFinishedArea":null,
@@ -1265,7 +1266,7 @@
 		],
 		"coveredSpaces":null,
 		"cropsIncludedYN":null,
-		"daysOnZillow":663,
+		"daysOnZillow":675,
 		"depositsAndFees":null,
 		"developmentStatus":null,
 		"doorFeatures":null,
@@ -1648,8 +1649,8 @@
 			}
 		}
 	],
-	"restimateHighPercent":null,
-	"restimateLowPercent":null,
+	"restimateHighPercent":"11",
+	"restimateLowPercent":"12",
 	"richMedia":null,
 	"richMediaVideos":null,
 	"schools":[
@@ -1773,154 +1774,154 @@
 		{
 			"taxIncreaseRate_1":0,
 			"taxPaid_1":2978.24,
-			"time_4":1613964948934,
+			"time_4":1615052212342,
 			"value_1":53697,
 			"valuIncreaseRate_1":0
 		},
 		{
 			"taxIncreaseRate_2":0,
 			"taxPaid_2":null,
-			"time_5":1582342548934,
+			"time_5":1583516212342,
 			"value_2":53697,
 			"valuIncreaseRate_2":0.17419256
 		},
 		{
 			"taxIncreaseRate_3":0.045780167,
 			"taxPaid_3":2636.14,
-			"time_6":1550806548934,
+			"time_6":1551893812342,
 			"value_3":45731,
 			"valuIncreaseRate_3":2.1867483e-05
 		},
 		{
 			"taxIncreaseRate_4":0.059998456,
 			"taxPaid_4":2520.74,
-			"time_7":1519270548934,
+			"time_7":1520357812342,
 			"value_4":45730,
 			"valuIncreaseRate_4":0
 		},
 		{
 			"taxIncreaseRate_5":0,
 			"taxPaid_5":2378.06,
-			"time_8":1487734548934,
+			"time_8":1488821812342,
 			"value_5":45730,
 			"valuIncreaseRate_5":0
 		},
 		{
 			"taxIncreaseRate_6":0,
 			"taxPaid_6":2378.06,
-			"time_9":1456112148934,
+			"time_9":1457285812342,
 			"value_6":45730,
 			"valuIncreaseRate_6":0
 		},
 		{
 			"taxIncreaseRate_7":0.001988746,
 			"taxPaid_7":2378.06,
-			"time_10":1424576148934,
+			"time_10":1425663412342,
 			"value_7":45730,
 			"valuIncreaseRate_7":0
 		},
 		{
 			"taxIncreaseRate_8":0.04579151,
 			"taxPaid_8":2373.34,
-			"time_11":1393040148934,
+			"time_11":1394127412342,
 			"value_8":45730,
 			"valuIncreaseRate_8":0.044779528
 		},
 		{
 			"taxIncreaseRate_9":-0.009531911,
 			"taxPaid_9":2269.42,
-			"time_12":1361504148934,
+			"time_12":1362591412342,
 			"value_9":43770,
 			"valuIncreaseRate_9":0
 		},
 		{
 			"taxIncreaseRate_10":0.09443242,
 			"taxPaid_10":2291.26,
-			"time_13":1329881748934,
+			"time_13":1331055412342,
 			"value_10":43770,
 			"valuIncreaseRate_10":-2.2846176e-05
 		},
 		{
 			"taxIncreaseRate_11":-0.07220092,
 			"taxPaid_11":2093.56,
-			"time_14":1298345748934,
+			"time_14":1299433012342,
 			"value_11":43771,
 			"valuIncreaseRate_11":-0.11718199
 		},
 		{
 			"taxIncreaseRate_12":0,
 			"taxPaid_12":2256.48,
-			"time_15":1266809748934,
+			"time_15":1267897012342,
 			"value_12":49581,
 			"valuIncreaseRate_12":0
 		},
 		{
 			"taxIncreaseRate_13":0,
 			"taxPaid_13":null,
-			"time_16":1235273748934,
+			"time_16":1236361012342,
 			"value_13":49581,
 			"valuIncreaseRate_13":-0.06267015
 		},
 		{
 			"taxIncreaseRate_14":0.09053394,
 			"taxPaid_14":2441.88,
-			"time_17":1203651348934,
+			"time_17":1204825012342,
 			"value_14":52896,
 			"valuIncreaseRate_14":0.04039967
 		},
 		{
 			"taxIncreaseRate_15":0.090252146,
 			"taxPaid_15":2239.16,
-			"time_18":1172115348934,
+			"time_18":1173202612342,
 			"value_15":50842,
 			"valuIncreaseRate_15":0
 		},
 		{
 			"taxIncreaseRate_16":-0.07596365,
 			"taxPaid_16":2053.8,
-			"time_19":1140579348934,
+			"time_19":1141666612342,
 			"value_16":50842,
 			"valuIncreaseRate_16":0
 		},
 		{
 			"taxIncreaseRate_17":0,
 			"taxPaid_17":2222.64,
-			"time_20":1109043348934,
+			"time_20":1110130612342,
 			"value_17":50842,
 			"valuIncreaseRate_17":0.06261756
 		},
 		{
 			"taxIncreaseRate_18":0,
 			"taxPaid_18":null,
-			"time_21":1077420948934,
+			"time_21":1078594612342,
 			"value_18":47846,
 			"valuIncreaseRate_18":0
 		},
 		{
 			"taxIncreaseRate_19":0.01329119,
 			"taxPaid_19":1983.7,
-			"time_22":1045884948934,
+			"time_22":1046972212342,
 			"value_19":47846,
 			"valuIncreaseRate_19":0
 		},
 		{
 			"taxIncreaseRate_20":-0.37132946,
 			"taxPaid_20":1957.68,
-			"time_23":1014348948934,
+			"time_23":1015436212342,
 			"value_20":47846,
 			"valuIncreaseRate_20":0.0019265402
 		},
 		{
 			"taxIncreaseRate_21":0.72700655,
 			"taxPaid_21":3114,
-			"time_24":982812948934,
+			"time_24":983900212342,
 			"value_21":47754,
 			"valuIncreaseRate_21":0
 		},
 		{
 			"taxIncreaseRate_22":0,
 			"taxPaid_22":1803.12,
-			"time_25":951190548934,
+			"time_25":952364212342,
 			"value_22":47754,
 			"valuIncreaseRate_22":0
 		}
@@ -1939,7 +1940,7 @@
 			-81.4461441040039&key=AIzaSyBJsNQO5ZeG-XAbqqWLKwG08fWITSxg33w&&signature=VGztQbldKzJx8CCu6efJGobLHvk="
 		}
 	],
-	"time_26OnZillow":"663 days",
+	"time_26OnZillow":"675 days",
 	"time_27Zone":"America/New_York",
 	"topNavJson":{
 		"core":{
@@ -2558,7 +2559,7 @@
 	},
 	"whatILove":null,
 	"yearBuilt":1994,
-	"HouseZestimate":216600,
+	"HouseZestimate":218300,
 	"zestimateDeepDiveData":{
 		"zmaModel":null
 	},

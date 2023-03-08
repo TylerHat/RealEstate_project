@@ -93,7 +93,7 @@ def find_value(word, endchar):
     if string[start_index + 1:end_index].strip() == 'null':
         return 0
     else:
-        return string[start_index + 1:end_index].strip()
+        return string[start_index + 1:end_index].strip().replace("\"","")
 
 ######## Section for Miscellaneous Info ############
 
@@ -120,6 +120,17 @@ target_house.financial.lastSoldPrice = float(find_value("lastSoldPrice",',').str
 target_house.financial.monthly_rentZestimate = float(find_value("rentZestimate",',').strip().strip("\""))
 target_house.financial.zestimateHouse = float(find_value("HouseZestimate",','))
 
+with open('interest_rates.txt', 'r') as file:
+        lines = file.readlines()
+
+if len(lines) >= 2:
+        interestrate = lines[-4]
+        
+else:
+        print("Error with the interest rate txt file")
+start = interestrate.find(": ") + 2 
+end = interestrate.find(",", start) 
+interestrate_api = float(interestrate[start:end])
 
 ######## Section for Taxes ############
 tax_values= []
@@ -254,16 +265,16 @@ target_house.financial.princible_loan_zest = target_house.financial.zestimateHou
 while choice != '0' and choice != '1':
     choice = input("Do you have the monthly interest rate or the yearly? (0 for monthly, 1 for yearly): ")
     if choice == '0':
-        target_house.financial.princible_rate = (input("What is the interest rate?") or 6)
+        target_house.financial.princible_rate = (input("What is the interest rate? (current market interest rate is "+ str(interestrate_api/12)+")\n") or interestrate_api)
         target_house.financial.princible_rate = float(target_house.financial.princible_rate/(12/100))
         
     else:
-        target_house.financial.princible_rate = (input("What is the interest rate?") or 6)
-        target_house.financial.princible_rate = 6
+        target_house.financial.princible_rate = (input("What is the interest rate? (current market interest rate is "+ str(interestrate_api)+")\n") or interestrate_api)
+        
         ##float(target_house.financial.princible_rate/(100))
 
-target_house.financial.initialpayment_Percent = float(input("How much (%) of the total value do you plan on puting down?") or 20)/100
-target_house.financial.numOfPayments = float(input("What is total amount of payments?") or 360)
+target_house.financial.initialpayment_Percent = float(input("How much (%) of the total value do you plan on puting down? ") or 20)/100
+target_house.financial.numOfPayments = float(input("What is total amount of payments? ") or 360)
 
 target_house.financial.princible_loan_zest = target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)
 """
