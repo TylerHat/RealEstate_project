@@ -8,7 +8,7 @@ class Financial:
         self.princible_loan_zest = princ_loan_zest(zestimateHouse, initialpayment_Percent)
         self.numOfPayments = numOfPayments
         self.princible_rate = princible_rate 
-        self.mortgage_payment_zest =mortgage_pay_zest(zestimateHouse, initialpayment_Percent, princible_rate, numOfPayments)
+        self.mortgage_payment_zest =calculate_mortgage_payment((zestimateHouse*(1-initialpayment_Percent/100)), princible_rate, numOfPayments)
         self.breakevenpoint = breakevenpoint(zestimateHouse, monthly_rentZestimate)
 
 
@@ -35,6 +35,28 @@ Note that this equation assumes a fixed-rate mortgage. If you have an adjustable
     except:
         return 0
 
+def calculate_mortgage_payment(loan_amount, interest_rate, loan_term):
+    '''
+    This function calculates the monthly mortgage payment based on the loan amount, interest rate, and loan term.
+    '''
+    # Convert the interest rate from percentage to decimal
+    interest_rate = interest_rate / 100 / 12
+
+   
+    # Calculate the monthly mortgage payment using the formula:
+    # M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1]
+    # where M is the monthly payment, P is the principal (loan amount), i is the monthly interest rate,
+    # and n is the number of monthly payments (loan term in months)
+    monthly_payment = loan_amount * (interest_rate * (1 + interest_rate) ** loan_term) / ((1 + interest_rate) ** loan_term - 1)
+
+    # Round the monthly payment to two decimal places
+    monthly_payment = round(monthly_payment, 2)
+
+    return monthly_payment
+
+
+
+
 def breakevenpoint(zestimateHouse, monthly_rentZestimate):
     """
     Break-even point = Total cost of owning the property / Rental income per year
@@ -54,3 +76,9 @@ def current_interest_rate():
         print("The second to last line is:", second_last_line)
     else:
         print("The file does not have enough lines.")
+
+time =360
+rate=6.0
+price = 214000
+amount = calculate_mortgage_payment(price, rate, time)
+print(amount)
