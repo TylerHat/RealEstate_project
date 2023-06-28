@@ -119,7 +119,7 @@ target_house.financial.monthly_HoaFee = float(find_value("monthlyHoaFee",','))
 target_house.financial.lastSoldPrice = float(find_value("lastSoldPrice",',').strip().strip("\""))
 target_house.financial.monthly_rentZestimate = float(find_value("rentZestimate",',').strip().strip("\""))
 target_house.financial.zestimateHouse = float(find_value("HouseZestimate",','))
-
+target_house.financial.mortgage_payment_zest = calculate_mortgage_payment()
 with open('interest_rates.txt', 'r') as file:
         lines = file.readlines()
 
@@ -276,7 +276,7 @@ while choice != '0' and choice != '1':
 target_house.financial.initialpayment_Percent = float(input("How much (%) of the total value do you plan on puting down? ") or 20)/100
 target_house.financial.numOfPayments = float(input("What is total amount of payments? ") or 360)
 
-target_house.financial.princible_loan_zest = target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)
+##target_house.financial.princible_loan_zest = target_house.financial.zestimateHouse*(1-target_house.financial.initialpayment_Percent)
 """
 ================================================================================================================
 ================================================================================================================

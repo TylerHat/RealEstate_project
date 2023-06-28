@@ -20,20 +20,22 @@ def princ_loan_zest(zestimateHouse, initialpayment_Percent):
         return 0
 
 
+"""
 def mortgage_pay_zest(zestimateHouse, initialpayment_Percent, princible_rate, numOfPayments):
-    """Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
+    Mortgage payment = (P * r * (1 + r)^n) / ((1 + r)^n - 1)
 where:
 
 P is the principal (the amount of the loan)
 r is the monthly interest rate (annual interest rate divided by 12)
 n is the total number of payments (the number of years of the loan multiplied by 12)
 Note that this equation assumes a fixed-rate mortgage. If you have an adjustable-rate mortgage, the mortgage payment may change over time.
-"""
+
     try:
         result = ((float(zestimateHouse) * (1-initialpayment_Percent)) * initialpayment_Percent * princible_rate * (1 + princible_rate) ** numOfPayments)/((1 + princible_rate) ** (360-1))
         return result
     except:
         return 0
+"""
 
 def calculate_mortgage_payment(loan_amount, interest_rate, loan_term):
     '''
